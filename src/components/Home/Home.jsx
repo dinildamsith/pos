@@ -13,12 +13,8 @@ function Home () {
 
     const home = {
         position:"absolute",
-        backgroundColor:"red",
         left:"282px",
         width: "calc(100% - 270px)",
-
-
-
     };
 
     useEffect(() => {
@@ -40,17 +36,7 @@ function Home () {
         };
     }, []);
 
-    //
-    // const mediaQueryStyles = {
-    //     backgroundColor: "yellow",
-    //     left: "2px",
-    //     width:"101%"
-    // };
 
-    // const mediaQuery = window.matchMedia("(max-width: 756px)");
-    // const mediaQueryStyles = mediaQuery.matches
-    //     ? { backgroundColor: "yellow", left: "2px", width: "101%" }
-    //     : {};
 
     const [mediaQueryStyles, setMediaQueryStyles] = useState({});
 
@@ -68,6 +54,16 @@ function Home () {
         };
     }, []);
 
+
+
+    const headSetImageStyle = {
+        width:"600px"
+
+    }
+    const headSetImageColStyle = {
+        marginTop: "-187px"
+    }
+
     return(
         <div>
             {showSideBar && <SideBar />}
@@ -75,19 +71,22 @@ function Home () {
             <div className="container-fluid">
 
                 <div className="row" style={{ ...home, ...mediaQueryStyles }}>
-                    <div className="col-7">
+
+                    <div className="col-10">
                         <h1 className="mt-5 fw-bold">Good Morning...</h1>
                     </div>
 
-                    <div className="col-5">
-                        <h1>#D Zone</h1>
+                    <div className="col-2">
+                        <h1 className="fw-bold">#D Zone</h1>
                     </div>
 
                     <div className="col-12">
                         <h1 className="mt-5 fw-bold fs-2">Welcome To Dz <br/> Management <br/> System</h1>
                     </div>
 
-
+                    <div className="col-12" style={headSetImageColStyle}>
+                        <img src={images.headSetLogo} className="mx-auto d-block img-fluid" style={headSetImageStyle} alt="Headset" />
+                    </div>
 
                 </div>
 
