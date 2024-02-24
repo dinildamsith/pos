@@ -40,12 +40,33 @@ function Home () {
         };
     }, []);
 
+    //
+    // const mediaQueryStyles = {
+    //     backgroundColor: "yellow",
+    //     left: "2px",
+    //     width:"101%"
+    // };
 
-    const mediaQueryStyles = {
-        backgroundColor: "yellow",
-        left: "2px",
-        width:"101%"
-    };
+    // const mediaQuery = window.matchMedia("(max-width: 756px)");
+    // const mediaQueryStyles = mediaQuery.matches
+    //     ? { backgroundColor: "yellow", left: "2px", width: "101%" }
+    //     : {};
+
+    const [mediaQueryStyles, setMediaQueryStyles] = useState({});
+
+    useEffect(() => {
+        const handleResize = () => {
+            const newMediaQuery = window.matchMedia("(max-width: 770px)");
+            setMediaQueryStyles(newMediaQuery.matches ? { backgroundColor: "yellow", left: "1%", width: "101%" } : {});
+        };
+
+        window.addEventListener("resize", handleResize);
+        handleResize(); // Initial check
+
+        return () => {
+            window.removeEventListener("resize", handleResize);
+        };
+    }, []);
 
     return(
         <div>
@@ -55,7 +76,7 @@ function Home () {
 
             <div className="container-fluid">
 
-                <div className="row" style={{ ...home, ...(window.innerWidth <=756 && mediaQueryStyles) }}>
+                <div className="row" style={{ ...home, ...mediaQueryStyles }}>
                     <div className="col-7">
                         <h1 className="mt-5 fw-bold">Good Morning...</h1>
                     </div>
