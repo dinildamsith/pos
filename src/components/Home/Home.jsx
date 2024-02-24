@@ -57,7 +57,7 @@ function Home () {
     useEffect(() => {
         const handleResize = () => {
             const newMediaQuery = window.matchMedia("(max-width: 770px)");
-            setMediaQueryStyles(newMediaQuery.matches ? { backgroundColor: "yellow", left: "1%", width: "101%" } : {});
+            setMediaQueryStyles(newMediaQuery.matches ? { backgroundColor: "yellow", left: "", width: "100%" } : {});
         };
 
         window.addEventListener("resize", handleResize);
@@ -71,8 +71,6 @@ function Home () {
     return(
         <div>
             {showSideBar && <SideBar />}
-
-
 
             <div className="container-fluid">
 
