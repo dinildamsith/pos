@@ -8,13 +8,6 @@ function App() {
     <div className="App">
         <Home />
 
-        <div className="row">
-            <div className="col"><h1>1</h1></div>
-            <div className="col"><h1>1</h1></div>
-            <div className="col"><h1>1</h1></div>
-        </div>
-
-
     </div>
   );
 }

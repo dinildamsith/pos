@@ -1,0 +1,14 @@
+/* Media query for screens wider than 769 pixels */
+@media (max-width: 770px) {
+    #home{
+        left: 0px; /* Adjust the left property for screens wider than 769 pixels */
+    }
+}
+@media (max-width: 756px) {
+    #home{
+      background-color: aqua/* Adjust the left property for screens wider than 769 pixels */
+    }
+  body{
+      background-color: rebeccapurple;
+  }
+}

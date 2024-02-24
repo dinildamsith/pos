@@ -39,6 +39,8 @@ function SideBar(){
 
 
     return(
+
+
         <div className="container-fluid">
 
            <div className="row bg-black position-absolute" style={sideBar}>
