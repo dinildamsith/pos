@@ -1,6 +1,8 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import images from "../../constants/image";
+import './mobileNav.css'
+import { openNav, closeNav } from '../SideBar/mobliNav';
 
 
 function SideBar(){
@@ -80,6 +82,19 @@ function SideBar(){
                 </div>
             </div>
 
+
+            <div id="mobile_navi" className="position-relative" style={{zIndex:"9999999999999999"}}>
+                <div id="mySidenav" className="sidenav">
+                    <button className="closebtn" onClick={closeNav}>&times;</button>
+                    <a href="#">Home</a>
+                </div>
+
+                <div id="main">
+        <span style={{ fontSize: '30px', cursor: 'pointer', color: 'black' }} onClick={openNav}>
+          &#9776; #Dinil Damsith
+        </span>
+                </div>
+            </div>
 
         </div>
     );
