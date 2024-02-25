@@ -77,7 +77,7 @@ function Home () {
     }
 
 
-
+    const isLargeScreen = window.innerWidth > 769;
 
     return(
         <div>
@@ -88,18 +88,21 @@ function Home () {
 
                 <div className="row" style={{ ...home, ...mediaQueryStyles }}>
 
-                    <div className="col-9">
+                    <div className="col-12 col-sm-7">
                         <h1 className="mt-5 fw-bold">Good Morning...</h1>
                     </div>
 
-                    <div className="col-3">
+                    <div className="col-12 col-sm-5" >
                         {/*<h1 className="fw-bold">#D Zone</h1>*/}
 
-                            <span style={{ color: "#4EDCFD", fontSize: "3em" }} className="fw-bold">#D </span>
-                            {' '}
-                            <span style={{ color: "#54615E", fontSize: "3em" }} className="fw-bold">Zone</span>
 
-
+                        {isLargeScreen && (
+                            <>
+                                <span style={{ color: "#4EDCFD", fontSize: "3em" }} className="fw-bold">#D </span>
+                                {' '}
+                                <span style={{ color: "#54615E", fontSize: "3em" }} className="fw-bold">Zone</span>
+                            </>
+                        )}
                     </div>
 
                     <div className="col-12">
@@ -107,12 +110,12 @@ function Home () {
                     </div>
 
                     <div className="col-12" style={{...headSetImageColStyle}}>
-                        <img src={images.headSetLogo} className="rounded mx-auto d-block" style={headSetImageStyle} alt="Headset" />
+                        <img src={images.headSetLogo} className="mx-auto d-block img-fluid img-fluid w-20 w-sm-20" style={headSetImageStyle} alt="Headset" />
                     </div>
 
-                    <div className="col-9"></div>
+                    <div className="col-12"></div>
 
-                    <div className="col-3" style={dataAndTimeRow} >
+                    <div className="col-12 mt-1" style={dataAndTimeRow} >
                         <div className="bg-black rounded-4 position-relative" style={dataAndTimeStyles}>
 
                             {/*<h1 className="fw-bold text-white text-center">2022/02/24</h1>*/}
