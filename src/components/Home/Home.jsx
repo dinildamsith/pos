@@ -69,12 +69,14 @@ function Home () {
     }
 
     const dataAndTimeStyles = {
-            width:"254px"
+            width:"254px",
+
     }
 
     const dataAndTimeRow = {
         height:"72px"
     }
+
 
     return(
         <div>
@@ -106,10 +108,10 @@ function Home () {
                         <img src={images.headSetLogo} className="rounded mx-auto d-block" style={headSetImageStyle} alt="Headset" />
                     </div>
 
-                    <div className="col-8"></div>
+                    <div className="col-9"></div>
 
-                    <div className="col-4" style={dataAndTimeRow}>
-                        <div className="bg-black rounded-4" style={dataAndTimeStyles}>
+                    <div className="col-3" style={dataAndTimeRow} >
+                        <div className="bg-black rounded-4 position-relative" style={dataAndTimeStyles}>
 
                             <h1 className="fw-bold text-white text-center">2022/02/24</h1>
                             <h1 className="fw-bold text-white text-center">00 : 00</h1>
