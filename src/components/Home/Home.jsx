@@ -80,12 +80,18 @@ function Home () {
 
                 <div className="row" style={{ ...home, ...mediaQueryStyles }}>
 
-                    <div className="col-10">
+                    <div className="col-9">
                         <h1 className="mt-5 fw-bold">Good Morning...</h1>
                     </div>
 
-                    <div className="col-2">
-                        <h1 className="fw-bold">#D Zone</h1>
+                    <div className="col-3">
+                        {/*<h1 className="fw-bold">#D Zone</h1>*/}
+
+                            <span style={{ color: "#4EDCFD", fontSize: "3em" }} className="fw-bold">#D </span>
+                            {' '}
+                            <span style={{ color: "#54615E", fontSize: "3em" }} className="fw-bold">Zone</span>
+
+
                     </div>
 
                     <div className="col-12">
