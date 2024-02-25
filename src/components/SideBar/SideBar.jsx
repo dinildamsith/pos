@@ -38,12 +38,13 @@ function SideBar(){
 
 
 
+
     return(
 
 
         <div className="container-fluid">
 
-           <div className="row bg-black position-absolute" style={sideBar}>
+           <div className="row position-absolute " style={sideBar}>
                <div className="col">
                    <img src={images.dzLogo} className="mx-auto d-block img-fluid position-relative "  style={dzLogo}/>
                </div>
@@ -53,27 +54,27 @@ function SideBar(){
 
             <div className="row" style={btnGroupRow} >
 
-                <div className="col-12  bg-black">
+                <div className="col-12 ">
                     <img src={images.homeLogo} style={imageStyle} />
                     <button className="btn btn-outline-light btn-lg " style={{ ...btnStyle, borderColor: 'transparent' }}>Home</button>
                 </div>
 
 
-                <div className="col-12  bg-black">
+                <div className="col-12 ">
                     <img src={images.customerLogo} style={imageStyle} />
                     <button className="btn btn-outline-light btn-lg" style={{ ...btnStyle, borderColor: 'transparent' }}>Customer</button>
                 </div>
 
-                <div className="col-12  bg-black">
+                <div className="col-12 ">
                     <img src={images.itemLogo} style={imageStyle}/>
                     <button className="btn btn-outline-light btn-lg" style={{ ...btnStyle, borderColor: 'transparent' }}>Item</button>
                 </div>
-                <div className="col-12  bg-black">
+                <div className="col-12 ">
                     <img src={images.orderLogo} style={imageStyle}/>
                     <button className="btn btn-outline-light btn-lg" style={{ ...btnStyle, borderColor: 'transparent' }}>Order</button>
                 </div>
 
-                <div className="col-12  bg-black">
+                <div className="col-12 ">
                     <img src={images.orderManage} style={imageStyle}/>
                     <button className="btn btn-outline-light btn-lg" style={{ ...btnStyle, borderColor: 'transparent' }}>Order Manage</button>
                 </div>
