@@ -92,7 +92,7 @@ function Home () {
                         <h1 className="mt-5 fw-bold">Good Morning...</h1>
                     </div>
 
-                    <div className="col-3" id="dZoneName">
+                    <div className="col-3">
                         {/*<h1 className="fw-bold">#D Zone</h1>*/}
 
                             <span style={{ color: "#4EDCFD", fontSize: "3em" }} className="fw-bold">#D </span>
