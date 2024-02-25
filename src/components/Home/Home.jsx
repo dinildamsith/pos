@@ -43,7 +43,7 @@ function Home () {
     useEffect(() => {
         const handleResize = () => {
             const newMediaQuery = window.matchMedia("(max-width: 770px)");
-            setMediaQueryStyles(newMediaQuery.matches ? { backgroundColor: "yellow", left: "", width: "100%" } : {});
+            setMediaQueryStyles(newMediaQuery.matches ? {  left: "", width: "100%" } : {});
         };
 
         window.addEventListener("resize", handleResize);
