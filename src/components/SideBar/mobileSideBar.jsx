@@ -24,6 +24,8 @@ function MobileSideBar() {
         };
     }, []);
 
+
+
     return (
         <div>
             <div id="mobile_navi" className="position-relative" style={{ zIndex: "9999999999999999", display: isMobileNavVisible ? "block" : "none" }}>
@@ -33,8 +35,8 @@ function MobileSideBar() {
                 </div>
 
                 <div id="main">
-                    <span style={{ fontSize: '30px', cursor: 'pointer', color: 'black' }} onClick={openNav}>
-                        &#9776; #Dinil Damsith
+                    <span style={{ fontSize: '30px', cursor: 'pointer', color: 'black' }} onClick={openNav} className="fw-bold">
+                        &#9776; #D Zone
                     </span>
                 </div>
             </div>
