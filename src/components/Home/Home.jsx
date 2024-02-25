@@ -3,8 +3,9 @@ import React, { useState, useEffect } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import images from "../../constants/image";
 import SideBar from "../SideBar/SideBar";
-import mobileSideBar from "../SideBar/mobileSideBar";
 import MobileSideBar from "../SideBar/mobileSideBar";
+import DateAndTime from "../DateAndTime/DateAndTime";
+
 
 
 
@@ -56,10 +57,6 @@ function Home () {
         };
     }, []);
 
-    const rowCoulr = {
-        backgroundColor:"red",
-    }
-
 
     const headSetImageStyle = {
         // width: "calc(600px - 10px)"
@@ -80,6 +77,8 @@ function Home () {
     }
 
 
+
+
     return(
         <div>
             {showSideBar && <SideBar />}
@@ -93,7 +92,7 @@ function Home () {
                         <h1 className="mt-5 fw-bold">Good Morning...</h1>
                     </div>
 
-                    <div className="col-3">
+                    <div className="col-3" id="dZoneName">
                         {/*<h1 className="fw-bold">#D Zone</h1>*/}
 
                             <span style={{ color: "#4EDCFD", fontSize: "3em" }} className="fw-bold">#D </span>
@@ -116,9 +115,9 @@ function Home () {
                     <div className="col-3" style={dataAndTimeRow} >
                         <div className="bg-black rounded-4 position-relative" style={dataAndTimeStyles}>
 
-                            <h1 className="fw-bold text-white text-center">2022/02/24</h1>
-                            <h1 className="fw-bold text-white text-center">00 : 00</h1>
-
+                            {/*<h1 className="fw-bold text-white text-center">2022/02/24</h1>*/}
+                            {/*<h1 className="fw-bold text-white text-center">00 : 00</h1>*/}
+                            <DateAndTime/>
                         </div>
 
                     </div>
