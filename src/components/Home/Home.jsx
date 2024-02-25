@@ -54,14 +54,22 @@ function Home () {
         };
     }, []);
 
+    const rowCoulr = {
+        backgroundColor:"red",
+    }
 
 
     const headSetImageStyle = {
-        width:"600px"
+        // width: "calc(600px - 10px)"
+        width: "550px"
 
-    }
+}
     const headSetImageColStyle = {
         marginTop: "-187px"
+    }
+
+    const dataAndTimeStyles = {
+            height:"317px"
     }
 
     return(
@@ -84,9 +92,21 @@ function Home () {
                         <h1 className="mt-5 fw-bold fs-2">Welcome To Dz <br/> Management <br/> System</h1>
                     </div>
 
-                    <div className="col-12" style={headSetImageColStyle}>
-                        <img src={images.headSetLogo} className="mx-auto d-block img-fluid" style={headSetImageStyle} alt="Headset" />
+                    <div className="col-12" style={{...headSetImageColStyle,...dataAndTimeStyles}}>
+                        <img src={images.headSetLogo} className="rounded mx-auto d-block" style={headSetImageStyle} alt="Headset" />
                     </div>
+
+                    {/*<div className="col-8"></div>*/}
+
+                    {/*<div className="col-4" style={dataAndTimeStyles}>*/}
+                    {/*    <div className="bg-black">*/}
+
+                    {/*        <h1 className="fw-bold text-white text-center">2022/02/24</h1>*/}
+                    {/*        <h1 className="fw-bold text-white text-center">00 : 00</h1>*/}
+
+                    {/*    </div>*/}
+
+                    {/*</div>*/}
 
                 </div>
 
