@@ -3,6 +3,8 @@ import React, { useState, useEffect } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import images from "../../constants/image";
 import SideBar from "../SideBar/SideBar";
+import mobileSideBar from "../SideBar/mobileSideBar";
+import MobileSideBar from "../SideBar/mobileSideBar";
 
 
 
@@ -20,7 +22,7 @@ function Home () {
     useEffect(() => {
         const handleResize = () => {
             // Update showSideBar state based on screen width
-            setShowSideBar(window.innerWidth > 768); // Adjust the breakpoint as needed
+            setShowSideBar(window.innerWidth >=770); // Adjust the breakpoint as needed
 
         };
 
@@ -81,6 +83,7 @@ function Home () {
     return(
         <div>
             {showSideBar && <SideBar />}
+            <MobileSideBar/>
 
             <div className="container-fluid">
 
