@@ -115,9 +115,9 @@ function Home () {
 
 
 
-                    <div className="col-12"></div>
+                    <div className="col-12  col-sm-6"></div>
 
-                    <div className="col-12 mt-1 d-flex justify-content-center" style={dataAndTimeRow}>
+                    <div className="position-relative col-12 mt-1 d-flex justify-content-center col-sm-6" style={dataAndTimeRow}>
                         <div className="bg-black rounded-4 position-relative" style={dataAndTimeStyles}>
 
                             <DateAndTime />
