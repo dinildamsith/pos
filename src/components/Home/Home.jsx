@@ -69,6 +69,7 @@ function Home () {
 
     const dataAndTimeStyles = {
             width:"254px",
+           height:"80px",
 
     }
 
@@ -109,7 +110,7 @@ function Home () {
                         <h1 className="mb-5 fw-bold fs-5">Welcome To Dz <br/> Management <br/> System</h1>
                     </div>
 
-                    <div className="col-12 " style={{...headSetImageColStyle}}>
+                    <div className="col-12 mb-sm-5 " style={{...headSetImageColStyle}}>
                         <img src={images.headSetLogo} className="mx-auto d-block img-fluid mt-4" style={headSetImageStyle} alt="Headset" />
                     </div>
 
@@ -117,7 +118,7 @@ function Home () {
 
                     <div className="col-12  col-sm-6"></div>
 
-                    <div className="position-relative col-12 mt-1 d-flex justify-content-center col-sm-6" style={dataAndTimeRow}>
+                    <div className="position-relative col-12 mt-1 d-flex justify-content-center col-sm-6 mb-sm-5 "  style={dataAndTimeRow}>
                         <div className="bg-black rounded-4 position-relative" style={dataAndTimeStyles}>
 
                             <DateAndTime />
