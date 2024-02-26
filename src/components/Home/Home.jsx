@@ -88,7 +88,7 @@ function Home () {
 
                 <div className="row" style={{ ...home, ...mediaQueryStyles }}>
 
-                    <div className="col-12 mt-5 col-sm-7 ">
+                    <div className="col-12 mt-3 col-sm-7 ">
                         <h1 className="mb-5 fw-bold fs-5" >Good Morning...</h1>
                     </div>
 
@@ -110,7 +110,7 @@ function Home () {
                     </div>
 
                     <div className="col-12 " style={{...headSetImageColStyle}}>
-                        <img src={images.headSetLogo} className="mx-auto d-block img-fluid" style={headSetImageStyle} alt="Headset" />
+                        <img src={images.headSetLogo} className="mx-auto d-block img-fluid mt-4" style={headSetImageStyle} alt="Headset" />
                     </div>
 
 
