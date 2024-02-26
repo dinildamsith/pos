@@ -117,14 +117,11 @@ function Home () {
 
                     <div className="col-12"></div>
 
-                    <div className="col-12 mt-1" style={dataAndTimeRow} >
+                    <div className="col-12 mt-1 d-flex justify-content-center" style={dataAndTimeRow}>
                         <div className="bg-black rounded-4 position-relative" style={dataAndTimeStyles}>
 
-                            {/*<h1 className="fw-bold text-white text-center">2022/02/24</h1>*/}
-                            {/*<h1 className="fw-bold text-white text-center">00 : 00</h1>*/}
-                            <DateAndTime/>
+                            <DateAndTime />
                         </div>
-
                     </div>
 
                 </div>
