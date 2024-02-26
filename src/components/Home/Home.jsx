@@ -109,8 +109,8 @@ function Home () {
                         <h1 className="mt-5 fw-bold fs-2">Welcome To Dz <br/> Management <br/> System</h1>
                     </div>
 
-                    <div className="col-12" style={{...headSetImageColStyle}}>
-                        <img src={images.headSetLogo} className="mx-auto d-block img-fluid img-fluid w-20 w-sm-20" style={headSetImageStyle} alt="Headset" />
+                    <div className="col-12 mt-0" style={{...headSetImageColStyle}}>
+                        <img src={images.headSetLogo} className="mx-auto d-block img-fluid" style={headSetImageStyle} alt="Headset" />
                     </div>
 
                     <div className="col-12"></div>
