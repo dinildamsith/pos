@@ -104,7 +104,14 @@ function Item() {
                         </div>
                     </div>
 
+                     <div className="col-12">
+                         <p>Click on the "Choose File" button to upload Save Item Image:</p>
 
+                         <form action="/action_page.php">
+                             <input type="file" id="myFile" name="filename" />
+
+                         </form>
+                     </div>
 
 
 
