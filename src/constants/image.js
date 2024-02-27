@@ -5,6 +5,7 @@ import itemLogo from '../assets/img/lapLogo.png'
 import orderLogo from '../assets/img/orderLog.png'
 import orderManage from '../assets/img/orderMangeLogo.png'
 import headSetLogo from '../assets/img/headSet.png'
+import selectItem from '../assets/img/selectItem.png'
 
 const images = {
     dzLogo,
@@ -13,7 +14,8 @@ const images = {
     itemLogo,
     orderLogo,
     orderManage,
-    headSetLogo
+    headSetLogo,
+    selectItem
 }
 
 export default images;
