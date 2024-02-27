@@ -69,7 +69,7 @@ function Item() {
                      </div>
 
 
-                    <div className="row">
+                    <div className="row mt-5">
 
                         <div className="col-12 col-xxl-4">
                             <img src={images.selectItem} className="mt-5 ml-5"/>
@@ -109,7 +109,7 @@ function Item() {
                          <p className="ml-4">Click on the "Choose File" button to upload Save Item Image:</p>
 
                          <form action="/action_page.php">
-                             <input type="file" id="myFile" name="filename" />
+                             <input type="file" id="myFile" name="filename"  className="ml-5"/>
 
                          </form>
                      </div>
@@ -124,10 +124,10 @@ function Item() {
      {/*////////////////////-----------------------------Save Item Table---------------------------/////////////////////////*/}
 
                      <div className="col-12">
-                         <h3>Save Items</h3>
+                         <h3 className="text-center mt-3 fw-bold">Save Items</h3>
                      </div>
 
-                     <div className="col-12">
+                     <div className="col-12 ml-5 mt-3">
                          <img src={images.selectItem}/>
                          <h5>I001</h5>
                          <h5>Lap Top</h5>
