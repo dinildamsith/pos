@@ -16,7 +16,7 @@ function App() {
         <Router>
             {/* Define your routes inside the Router */}
             <Routes>
-                <Route path="/" element={<Home />} />
+                <Route path="/home" element={<Home />} />
                 <Route path="/item" element={<Item />} />
             </Routes>
         </Router>
