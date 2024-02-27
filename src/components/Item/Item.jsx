@@ -62,13 +62,57 @@ function Item() {
 
              <div className="container-fluid">
 
-                 <div className="row" style={{ ...rowCss, ...mediaQueryStyles }}>
+                 <div className="row" style={{ ...rowCss, ...mediaQueryStyles }}  id="PageColour">
 
                      <div className="col-12 mt-4">
                             <h1 className="text-center fw-bold">Stoke Manage</h1>
                      </div>
 
+
+                    <div className="row">
+
+                        <div className="col-12">
+                            <img src={images.selectItem} className="mt-4 ml-5"/>
+                        </div>
+
+                        <div className="col-12">
+
+                            <form>
+                                <div className="form-group">
+                                    <label htmlFor="formGroupExampleInput2" className="text-black fw-bold">Item Id</label>
+                                    <input type="text" className="form-control fw-bold" id="formGroupExampleInput2" placeholder="I001"/>
+                                </div>
+                                <div className="form-group">
+                                    <label htmlFor="formGroupExampleInput2" className="text-black fw-bold">Item Name</label>
+                                    <input type="text" className="form-control fw-bold" id="formGroupExampleInput2" placeholder="Lap Top"/>
+                                </div>
+                                <div className="form-group">
+                                    <label htmlFor="formGroupExampleInput2" className="text-black fw-bold">Unit Price</label>
+                                    <input type="text" className="form-control fw-bold" id="formGroupExampleInput2" placeholder="400000.00"/>
+                                </div>
+                                <div className="form-group">
+                                    <label htmlFor="formGroupExampleInput2" className="text-black fw-bold">Qty</label>
+                                    <input type="text" className="form-control fw-bold" id="formGroupExampleInput2" placeholder="20"/>
+                                </div>
+                            </form>
+
+                        </div>
+
+
+                    </div>
+
+
+
+
+
+
+
+
+
+
+
                  </div>
+
 
             </div>
         </div>
