@@ -27,7 +27,7 @@ function MobileSideBar() {
 
 
     return (
-        <div>
+        <div className="position-fixed">
             <div id="mobile_navi" className="position-relative" style={{ zIndex: "9999999999999999", display: isMobileNavVisible ? "block" : "none" }}>
                 <div id="mySidenav" className="sidenav">
                     <button className="closebtn" onClick={closeNav}>&times;</button>

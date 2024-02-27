@@ -43,7 +43,7 @@ function SideBar(){
     return(
 
 
-        <div className="container-fluid">
+        <div className="container-fluid position-fixed">
 
            <div className="row position-absolute " style={sideBar}>
                <div className="col">
