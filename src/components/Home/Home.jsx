@@ -89,11 +89,11 @@ function Home () {
 
                 <div className="row" style={{ ...home, ...mediaQueryStyles }}>
 
-                    <div className="col-12 mt-3 col-sm-7 col-md-8 col-lg-8 col-xl-9">
+                    <div className="col-12 mt-3 col-sm-7 col-md-8 col-lg-8 col-xl-9 col-xxl-9">
                         <h1 className="mb-5 fw-bold fs-5" >Good Morning...</h1>
                     </div>
 
-                    <div className="col-12 col-sm-5 col-md-4 col-lg-4 col-xl-3" >
+                    <div className="col-12 col-sm-5 col-md-4 col-lg-4 col-xl-3 col-xxl-3" >
                         {/*<h1 className="fw-bold">#D Zone</h1>*/}
 
 
