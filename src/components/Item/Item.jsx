@@ -98,7 +98,10 @@ function Item() {
 
                         </div>
 
-
+                        <div className="col-12">
+                            <h3>Last Mange Item</h3>
+                            <img src={images.selectItem}/>
+                        </div>
                     </div>
 
 

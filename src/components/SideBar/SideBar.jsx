@@ -10,7 +10,8 @@ import React, { useState, useEffect } from 'react';
 function SideBar(){
     const sideBar = {
         height: "100%",
-        width: "270px"
+        width: "270px",
+        backgroundColor:"white",
 
     };
 
