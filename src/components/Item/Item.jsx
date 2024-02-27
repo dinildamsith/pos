@@ -7,10 +7,54 @@ import './Item.css'
 
 function Item() {
 
+    ////////////////////////////////////////////////////////////////////////////////////////////////
+
+    const [showSideBar, setShowSideBar] = useState(false);
+
+    useEffect(() => {
+        const handleResize = () => {
+            // Update showSideBar state based on screen width
+            setShowSideBar(window.innerWidth >=770); // Adjust the breakpoint as needed
+
+        };
+
+        // Initial check on mount
+        handleResize();
+
+        // Event listener for window resize
+        window.addEventListener("resize", handleResize);
+
+        // Cleanup the event listener on component unmount
+        return () => {
+            window.removeEventListener("resize", handleResize);
+        };
+    }, []);
+
+
+
+    const [mediaQueryStyles, setMediaQueryStyles] = useState({});
+
+    useEffect(() => {
+        const handleResize = () => {
+            const newMediaQuery = window.matchMedia("(max-width: 770px)");
+            setMediaQueryStyles(newMediaQuery.matches ? {  left: "", width: "100%" } : {});
+        };
+
+        window.addEventListener("resize", handleResize);
+        handleResize(); // Initial check
+
+        return () => {
+            window.removeEventListener("resize", handleResize);
+        };
+    }, []);
+
+
+    ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
     return (
         <div className="container-fluid">
-
+            <SideBar/>
+            <h1>hiii</h1>
         </div>
     );
 }
