@@ -49,6 +49,11 @@ function Item() {
     }, []);
 
 
+    const rowCss = {
+        position:"absolute",
+        left:"282px",
+        width: "calc(100% - 270px)",
+    };
     ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
     return (
@@ -57,6 +62,13 @@ function Item() {
 
              <div className="container-fluid">
 
+                 <div className="row" style={{ ...rowCss, ...mediaQueryStyles }}>
+
+                     <div className="col">
+                            <h1>Hi</h1>
+                     </div>
+
+                 </div>
 
             </div>
         </div>
