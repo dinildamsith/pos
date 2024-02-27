@@ -120,8 +120,19 @@ function Item() {
                      </div>
 
 
+     {/*////////////////////-----------------------------Save Item Table---------------------------/////////////////////////*/}
 
+                     <div className="col-12">
+                         <h3>Save Items</h3>
+                     </div>
 
+                     <div className="col-12">
+                         <img src={images.selectItem}/>
+                         <h5>I001</h5>
+                         <h5>Lap Top</h5>
+                         <h5>Rs 40000.00</h5>
+                         <h5>40</h5>
+                     </div>
 
 
 
