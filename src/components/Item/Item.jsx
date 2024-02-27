@@ -52,9 +52,13 @@ function Item() {
     ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
     return (
-        <div className="container-fluid">
-            <SideBar/>
-            <h1>hiii</h1>
+        <div>
+            {showSideBar && <SideBar />}
+
+             <div className="container-fluid">
+
+
+            </div>
         </div>
     );
 }
