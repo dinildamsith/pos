@@ -127,7 +127,7 @@ function Item() {
                          <h3 className="text-center mt-3 fw-bold">Save Items</h3>
                      </div>
 
-                     <div className="col-12 ml-5 mt-3">
+                     <div className="col-12 col-xxl-3 col-xl-3 ml-5 mt-3">
                          <img src={images.selectItem}/>
                          <h5>I001</h5>
                          <h5>Lap Top</h5>
