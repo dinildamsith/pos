@@ -113,7 +113,11 @@ function Item() {
                          </form>
                      </div>
 
-
+                     <div className="col-12">
+                         <button type="button" className="btn btn-success">Save</button>
+                         <button type="button" className="btn btn-warning">Update</button>
+                         <button type="button" className="btn btn-danger">Delete</button>
+                     </div>
 
 
 
