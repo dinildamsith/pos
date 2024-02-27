@@ -13,3 +13,15 @@
         top: -443px;
     }
 }
+
+@media all  and (Max-width: 576px ) {
+    #manageItemCol{
+        margin-top: 196px;
+    }
+    #fileChoseCol{
+        margin-top: -486px;
+    }
+    #itemBtnCol{
+        top: -420px;
+    }
+}
