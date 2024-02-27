@@ -2,6 +2,7 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import images from "../../constants/image";
 import './mobileNav.css'
+import {BrowserRouter as Router, Routes, Route, Link,} from "react-router-dom";
 
 import React, { useState, useEffect } from 'react';
 
@@ -55,11 +56,10 @@ function SideBar(){
 
             <div className="row" style={btnGroupRow} >
 
-                <div className="col-12 ">
-                    <img src={images.homeLogo} style={imageStyle} />
-                    <button className="btn btn-outline-light btn-lg " style={{ ...btnStyle, borderColor: 'transparent' }}>Home</button>
-                </div>
-
+                <Link to="/item">
+                    <img src={images.homeLogo} style={imageStyle} alt="Home Logo" />
+                    <button className="btn btn-outline-light btn-lg" style={{ ...btnStyle, borderColor: 'transparent' }}>Home</button>
+                </Link>
 
                 <div className="col-12 ">
                     <img src={images.customerLogo} style={imageStyle} />
