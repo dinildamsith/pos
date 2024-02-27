@@ -12,13 +12,9 @@ import DateAndTime from "../DateAndTime/DateAndTime";
 
 function Home () {
 
-    const [showSideBar, setShowSideBar] = useState(false);
+ ////////////////////////////////////////////////////////////////////////////////////////////////
 
-    const home = {
-        position:"absolute",
-        left:"282px",
-        width: "calc(100% - 270px)",
-    };
+    const [showSideBar, setShowSideBar] = useState(false);
 
     useEffect(() => {
         const handleResize = () => {
@@ -58,6 +54,18 @@ function Home () {
     }, []);
 
 
+    ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+    // Mobile Size Remove D zone Word
+    const isLargeScreen = window.innerWidth > 769;
+
+    const home = {
+        position:"absolute",
+        left:"282px",
+        width: "calc(100% - 270px)",
+    };
+
+
     const headSetImageStyle = {
         // width: "calc(600px - 10px)"
         width: "550px"
@@ -78,7 +86,10 @@ function Home () {
     }
 
 
-    const isLargeScreen = window.innerWidth > 769;
+    /////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
 
     return(
         <div>

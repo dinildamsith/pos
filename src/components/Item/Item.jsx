@@ -6,8 +6,10 @@ import MobileSideBar from "../SideBar/mobileSideBar";
 import './Item.css'
 
 function Item() {
+
+
     return (
-        <div>
+        <div className="container-fluid">
 
         </div>
     );

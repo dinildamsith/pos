@@ -2,7 +2,7 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import images from "../../constants/image";
 import './mobileNav.css'
-import { openNav, closeNav } from '../SideBar/mobliNav';
+
 import React, { useState, useEffect } from 'react';
 
 
@@ -86,3 +86,5 @@ function SideBar(){
 }
 
 export default SideBar;
+
+
