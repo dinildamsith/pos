@@ -71,11 +71,11 @@ function Item() {
 
                     <div className="row mt-5">
 
-                        <div className="col-12 col-xxl-4 col-xl-5 col-lg-6  col-md-7">
+                        <div className="col-12 col-xxl-4 col-xl-5 col-lg-6  col-md-7 col-sm-7">
                             <img src={images.selectItem} className="mt-5 ml-5 mw-100 d-block mx-auto"/>
                         </div>
 
-                        <div className="col-12 col-xxl-3 col-xl-3 col-lg-6  col-md-5">
+                        <div className="col-12 col-xxl-3 col-xl-3 col-lg-6  col-md-5 col-sm-5">
 
                             <form>
                                 <div className="form-group">
@@ -105,7 +105,7 @@ function Item() {
 
                     </div>
 
-                     <div className="col-12 col-xxl-3 col-xl-4 col-lg-5 lg-mb-5  col-md-5              mb-5 ml-5" id="fileChoseCol">
+                     <div className="col-12 col-xxl-3 col-xl-4 col-lg-5 lg-mb-5  col-md-5  col-sm-5            mb-5 " id="fileChoseCol">
                          <p className="ml-4">Click on the "Choose File" button to upload Save Item Image:</p>
 
                          <form action="/action_page.php">
@@ -114,7 +114,7 @@ function Item() {
                          </form>
                      </div>
 
-                     <div className="col-12 col-xxl-3 col-xl-3 col-lg-4  col-md-4 mt-5 ml-5" id="itemBtnCol">
+                     <div className="col-12 col-xxl-3 col-xl-3 col-lg-4  col-md-4  col-sm-5 mt-5  text-center" id="itemBtnCol">
                          <button type="button" className="btn btn-success">Save</button>
                          <button type="button" className="btn btn-warning">Update</button>
                          <button type="button" className="btn btn-danger">Delete</button>
@@ -127,7 +127,7 @@ function Item() {
                              <h3 className="text-center mt-3 fw-bold">Save Items</h3>
                          </div>
 
-                         <div className="col-12 col-xxl-3 col-xl-3 col-lg-3 ml-5 mt-3">
+                         <div className="col-12 col-xxl-3 col-xl-3 col-lg-3 col-md-2 col-sm-2 ml-5 mt-3">
                              <img src={images.selectItem}/>
                              <h5>I001</h5>
                              <h5>Lap Top</h5>
