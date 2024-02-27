@@ -56,28 +56,38 @@ function SideBar(){
 
             <div className="row" style={btnGroupRow} >
 
-                <Link to="/item">
+                <Link to="/home">
                     <img src={images.homeLogo} style={imageStyle} alt="Home Logo" />
                     <button className="btn btn-outline-light btn-lg" style={{ ...btnStyle, borderColor: 'transparent' }}>Home</button>
                 </Link>
 
+
                 <div className="col-12 ">
+                    <Link to="/">
                     <img src={images.customerLogo} style={imageStyle} />
                     <button className="btn btn-outline-light btn-lg" style={{ ...btnStyle, borderColor: 'transparent' }}>Customer</button>
+                    </Link>
                 </div>
 
+
                 <div className="col-12 ">
+                    <Link to="/item">
                     <img src={images.itemLogo} style={imageStyle}/>
                     <button className="btn btn-outline-light btn-lg" style={{ ...btnStyle, borderColor: 'transparent' }}>Item</button>
+                    </Link>
                 </div>
                 <div className="col-12 ">
+                    <Link to="/">
                     <img src={images.orderLogo} style={imageStyle}/>
                     <button className="btn btn-outline-light btn-lg" style={{ ...btnStyle, borderColor: 'transparent' }}>Order</button>
+                    </Link>
                 </div>
 
                 <div className="col-12 ">
+                    <Link to="/">
                     <img src={images.orderManage} style={imageStyle}/>
                     <button className="btn btn-outline-light btn-lg" style={{ ...btnStyle, borderColor: 'transparent' }}>Order Manage</button>
+                    </Link>
                 </div>
             </div>
 
