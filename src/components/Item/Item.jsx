@@ -65,7 +65,7 @@ function Item() {
                  <div className="row" style={{ ...rowCss, ...mediaQueryStyles }}>
 
                      <div className="col-12 mt-4">
-                            <h1 className="text-center fw-bold">Items Manage</h1>
+                            <h1 className="text-center fw-bold">Stoke Manage</h1>
                      </div>
 
                  </div>
