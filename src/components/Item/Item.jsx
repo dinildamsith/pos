@@ -72,7 +72,7 @@ function Item() {
                     <div className="row mt-5">
 
                         <div className="col-12 col-xxl-4 col-xl-5 col-lg-6  col-md-7">
-                            <img src={images.selectItem} className="mt-5 ml-5"/>
+                            <img src={images.selectItem} className="mt-5 ml-5 mw-100 d-block mx-auto"/>
                         </div>
 
                         <div className="col-12 col-xxl-3 col-xl-3 col-lg-6  col-md-5">
