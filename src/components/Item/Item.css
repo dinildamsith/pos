@@ -1,3 +1,15 @@
 #PageColour{
     background-color: #C6C6C6;
 }
+
+@media all  and (Max-width: 1200px ) {
+    #manageItemCol{
+        margin-top: 115px;
+    }
+    #fileChoseCol{
+        margin-top: -458px;
+    }
+    #itemBtnCol{
+        top: -443px;
+    }
+}
