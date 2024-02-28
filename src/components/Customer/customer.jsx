@@ -67,9 +67,68 @@ function Customer(){
 
                 <div className="row" style={{ ...customer, ...mediaQueryStyles }} id="PageColour">
 
-                    <div className="col-12">Hi Customer</div>
+                    <div className="col-12 mt-4">
+                        <h1 className="text-center fw-bold">Customer Manage</h1>
+                    </div>
+
+
+                    <div className="row mt-5">
+
+                        <div className="col-12">
+                            <img src={images.customerLogo2}/>
+                        </div>
+
+
+                        <div className="col-12">
+                            <form>
+                                <div className="form-group">
+                                    <label htmlFor="formGroupExampleInput2" className="text-black fw-bold">Customer Id</label>
+                                    <input type="text" className="form-control fw-bold" id="formGroupExampleInput2" placeholder="C001"/>
+                                </div>
+                                <div className="form-group">
+                                    <label htmlFor="formGroupExampleInput2" className="text-black fw-bold">Customer Name</label>
+                                    <input type="text" className="form-control fw-bold" id="formGroupExampleInput2" placeholder="Dinil Damsith"/>
+                                </div>
+                                <div className="form-group">
+                                    <label htmlFor="formGroupExampleInput2" className="text-black fw-bold">Mail</label>
+                                    <input type="text" className="form-control fw-bold" id="formGroupExampleInput2" placeholder="dinil@gmail.com"/>
+                                </div>
+                                <div className="form-group">
+                                    <label htmlFor="formGroupExampleInput2" className="text-black fw-bold">Address</label>
+                                    <input type="text" className="form-control fw-bold" id="formGroupExampleInput2" placeholder="Avissawella"/>
+                                </div>
+                            </form>
+                        </div>
+
+
+
+                        <div className="col-12">
+                            <button type="button" className="btn btn-success">Save</button>
+                            <button type="button" className="btn btn-warning">Update</button>
+                            <button type="button" className="btn btn-danger">Delete</button>
+                        </div>
+
+                        <div className="col-12">
+                            <table className="table">
+                                <thead>
+                                <tr>
+                                    <th scope="col">Customer Id</th>
+                                    <th scope="col">Name</th>
+                                    <th scope="col">Mail</th>
+                                    <th scope="col">Address</th>
+                                </tr>
+                                </thead>
+                                <tbody id="customer_Table">
+
+                                </tbody>
+                            </table>
+                        </div>
+
+                    </div>
 
                 </div>
+
+
 
             </div>
 
