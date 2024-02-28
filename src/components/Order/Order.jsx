@@ -66,10 +66,29 @@ function Order(){
             <div className="container-fluid">
 
                 <div className="row" style={{ ...rowCss, ...mediaQueryStyles }}  id="PageColour">
-                    <div className="col">
-                        <h1>Hii</h1>
+
+                    <div className="col-12 mt-5 mt-xxl-0 mt-xl-0 mt-lg-0 mt-sm-0">
+                        <h1 className="text-center fw-bold mt-5">Order</h1>
                     </div>
+
+
+                    <div className="row">
+
+                        <div className="col-12">
+                            <h2>Order Id</h2>
+                            <select className="form-select" aria-label="Default select example">
+                                <option selected>Open this select menu</option>
+                                <option value="1">One</option>
+
+                            </select>
+                            <h2>Order Id</h2>
+                        </div>
+
+
+                    </div>
+
                 </div>
+
 
             </div>
 
