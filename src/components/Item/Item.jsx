@@ -65,7 +65,7 @@ function Item() {
 
                  <div className="row" style={{ ...rowCss, ...mediaQueryStyles }}  id="PageColour">
 
-                     <div className="col-12 mt-5">
+                     <div className="col-12 mt-5 mt-xxl-0 mt-xl-0 mt-lg-0 mt-sm-0">
                             <h1 className="text-center fw-bold mt-5">Stoke Manage</h1>
                      </div>
 
