@@ -3,6 +3,7 @@ import './App.css';
 import Home from "./components/Home/Home";
 import Item from "./components/Item/Item";
 import Customer from "./components/Customer/customer";
+import Order from "./components/Order/Order";
 import {BrowserRouter as Router, Route, Routes, Switch} from 'react-router-dom';
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
                 <Route path="/home" element={<Home />} />
                 <Route path="/item" element={<Item />} />
                 <Route path="/customer" element={<Customer />} />
+                <Route path="/order" element={<Order />} />
             </Routes>
         </Router>
 
