@@ -75,7 +75,7 @@ function Customer(){
                     <div className="row mt-5">
 
                         <div className="col-12">
-                            <img src={images.customerLogo2}/>
+                            <img src={images.customerLogo2} className="mt-5 ml-5" style={{width:"200px"}}/>
                         </div>
 
 
