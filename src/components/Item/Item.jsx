@@ -114,7 +114,7 @@ function Item() {
                          </form>
                      </div>
 
-                     <div className="col-12 col-xxl-3 col-xl-3 col-lg-4  col-md-4  col-sm-5 mt-5  text-center" id="itemBtnCol">
+                     <div className="col-12 col-xxl-3 col-xl-3 col-lg-4  col-md-4  col-sm-5 mt-5  sm-ml-5  text-center" id="itemBtnCol">
                          <button type="button" className="btn btn-success">Save</button>
                          <button type="button" className="btn btn-warning">Update</button>
                          <button type="button" className="btn btn-danger">Delete</button>
