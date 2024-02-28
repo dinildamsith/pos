@@ -75,33 +75,123 @@ function Order(){
                     <div className="row">
 
                         <div className="col-12">
+                            <div>
+                                <div className="form-group">
+                                    <label htmlFor="formGroupExampleInput2" className="text-black fw-bold">Order Id</label>
+                                    <input type="text" className="form-control fw-bold bg-white" id="formGroupExampleInput2" placeholder="" disabled/>
+                                </div>
 
-                            <div className="form-group">
-                                <label htmlFor="formGroupExampleInput2" className="text-black fw-bold">Order Id</label>
-                                <input type="text" className="form-control fw-bold" id="formGroupExampleInput2" placeholder="" disabled/>
+                                <div className="form-group">
+                                    <label htmlFor="formGroupExampleInput2" className="text-black fw-bold">Customer Id</label>
+                                    <select className="form-select" aria-label="Default select example" id="formGroupExampleInput2" defaultValue="defaultOption">
+                                        <option value="defaultOption">Open this select menu</option>
+                                    </select>
+                                </div>
+
+
+                                <div className="form-group">
+                                    <label htmlFor="formGroupExampleInput2" className="text-black fw-bold">Customer Name</label>
+                                    <input type="text" className="form-control fw-bold bg-white" id="formGroupExampleInput2" placeholder="" disabled/>
+                                </div>
+
+                                <div className="form-group">
+                                    <label htmlFor="formGroupExampleInput2" className="text-black fw-bold">Order Date</label>
+                                    <input type="text" className="form-control fw-bold bg-white" id="formGroupExampleInput2" placeholder="" disabled/>
+                                </div>
                             </div>
+                        </div>
 
-                            <div className="form-group">
-                                <label htmlFor="formGroupExampleInput2" className="text-black fw-bold">Customer Id</label>
-                                <select className="form-select" aria-label="Default select example" id="formGroupExampleInput2">
-                                    <option selected>Open this select menu</option>
-                                </select>
-                            </div>
 
-                            <div className="form-group">
-                                <label htmlFor="formGroupExampleInput2" className="text-black fw-bold">Customer Name</label>
-                                <input type="text" className="form-control fw-bold" id="formGroupExampleInput2" placeholder="" disabled/>
-                            </div>
 
-                            <div className="form-group">
-                                <label htmlFor="formGroupExampleInput2" className="text-black fw-bold">Order Date</label>
-                                <input type="text" className="form-control fw-bold" id="formGroupExampleInput2" placeholder="" disabled/>
+                        <div className="col-12">
+                            <img src={images.selectItem}/>
+                        </div>
+
+                        <div className="col-12">
+
+                            <div>
+
+                                <div className="form-group">
+                                    <label htmlFor="formGroupExampleInput2" className="text-black fw-bold">Item Id</label>
+                                    <select className="form-select" aria-label="Default select example" id="formGroupExampleInput2" defaultValue="defaultOption">
+                                        <option value="defaultOption">Open this select menu</option>
+                                    </select>
+                                </div>
+
+                                <div className="form-group">
+                                    <label htmlFor="formGroupExampleInput2" className="text-black fw-bold">Description</label>
+                                    <input type="text" className="form-control fw-bold bg-white" id="formGroupExampleInput2" placeholder="" disabled/>
+                                </div>
+
+                                <div className="form-group">
+                                    <label htmlFor="formGroupExampleInput2" className="text-black fw-bold">Qty</label>
+                                    <input type="text" className="form-control fw-bold" id="formGroupExampleInput2" placeholder=""/>
+                                </div>
+
+                                <div className="form-group">
+                                    <label htmlFor="formGroupExampleInput2" className="text-black fw-bold">Unit Price</label>
+                                    <input type="text" className="form-control fw-bold" id="formGroupExampleInput2" placeholder=""/>
+                                </div>
+
+                                <button type="button" className="btn btn-success">Add To Cart </button>
                             </div>
 
                         </div>
 
 
+
                     </div>
+
+
+
+                    <div className="col-12">
+                        <h1 className="fw-bold">Cart</h1>
+
+
+                        <table className="table">
+                            <thead>
+                            <tr>
+                                <th scope="col">Item</th>
+                                <th scope="col">Qty</th>
+                                <th scope="col">Unit Price</th>
+                                <th scope="col">Total</th>
+                                <th scope="col"></th>
+                            </tr>
+                            </thead>
+                            <tbody id="customer_Table">
+                            </tbody>
+                        </table>
+
+                    </div>
+
+
+
+                    <div className="col-12">
+
+                        <div>
+                            <div className="form-group">
+                                <label htmlFor="formGroupExampleInput2" className="text-black fw-bold">Total</label>
+                                <input type="text" className="form-control fw-bold bg-white" id="formGroupExampleInput2" placeholder="" disabled/>
+                            </div>
+
+                            <div className="form-group">
+                                <label htmlFor="formGroupExampleInput2" className="text-black fw-bold">Cash</label>
+                                <input type="text" className="form-control fw-bold bg-white" id="formGroupExampleInput2" placeholder=""/>
+                            </div>
+
+                            <div className="form-group">
+                                <label htmlFor="formGroupExampleInput2" className="text-black fw-bold">Balance</label>
+                                <input type="text" className="form-control fw-bold bg-white" id="formGroupExampleInput2" placeholder="" disabled/>
+                            </div>
+
+                            <button type="button" className="btn btn-success">Add To Cart </button>
+                        </div>
+
+
+                    </div>
+
+
+
 
                 </div>
 
