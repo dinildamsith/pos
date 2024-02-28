@@ -67,15 +67,15 @@ function Customer(){
 
                 <div className="row" style={{ ...customer, ...mediaQueryStyles }} id="PageColour">
 
-                    <div className="col-12 mt-4 mt-sm-5">
-                        <h1 className="text-center fw-bold mt-sm-5">Customer Manage</h1>
+                    <div className="col-12 mt-5 mt-sm-5">
+                        <h1 className="text-center fw-bold mt-sm-5 mt-5 mt-md-1">Customer Manage</h1>
                     </div>
 
 
                     <div className="row mt-5">
 
                         <div className="col-12 col-xxl-4 col-xl-4 col-lg-5 col-md-7 col-sm-7 mt-3">
-                            <img src={images.customerLogo2} className="mt-5 ml-5 mt-sm-2 " style={{width:"200px"}}/>
+                            <img src={images.customerLogo2} className="mt-5 ml-5 mt-sm-2 mw-100 d-block mx-auto" style={{width:"200px"}}/>
                         </div>
 
 
@@ -118,9 +118,9 @@ function Customer(){
                             <table className="table">
                                 <thead>
                                 <tr>
-                                    <th scope="col">Customer Id</th>
+                                    <th scope="col">Id</th>
                                     <th scope="col">Name</th>
-                                    <th scope="col">Mail</th>
+                                    <th scope="col">Contact</th>
                                     <th scope="col">Address</th>
                                 </tr>
                                 </thead>
@@ -128,13 +128,13 @@ function Customer(){
                                 <tr>
                                     <td>1</td>
                                     <td>John Doe</td>
-                                    <td>john.doe@example.com</td>
+                                    <td>0714430305</td>
                                     <td>123 Main Street</td>
                                 </tr>
                                 <tr>
                                     <td>2</td>
                                     <td>Jane Smith</td>
-                                    <td>jane.smith@example.com</td>
+                                    <td>0713207782</td>
                                     <td>456 Oak Avenue</td>
                                 </tr>
                                 </tbody>
