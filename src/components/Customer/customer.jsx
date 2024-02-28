@@ -74,7 +74,7 @@ function Customer(){
 
                     <div className="row mt-5">
 
-                        <div className="col-12 col-xxl-4">
+                        <div className="col-12 col-xxl-4 mt-3">
                             <img src={images.customerLogo2} className="mt-5 ml-5" style={{width:"200px"}}/>
                         </div>
 
@@ -111,10 +111,10 @@ function Customer(){
 
 
                         <div className="col-12 mt-5">
-                            <h1 className="text-center fw-bold">Save Customers</h1>
+                            <h1 className="text-center fw-bold mt-3">Save Customers</h1>
                         </div>
 
-                        <div className="col-12 col-xxl-12">
+                        <div className="col-12 col-xxl-12 mt-3">
                             <table className="table">
                                 <thead>
                                 <tr>
@@ -125,10 +125,22 @@ function Customer(){
                                 </tr>
                                 </thead>
                                 <tbody id="customer_Table">
-
+                                <tr>
+                                    <td>1</td>
+                                    <td>John Doe</td>
+                                    <td>john.doe@example.com</td>
+                                    <td>123 Main Street</td>
+                                </tr>
+                                <tr>
+                                    <td>2</td>
+                                    <td>Jane Smith</td>
+                                    <td>jane.smith@example.com</td>
+                                    <td>456 Oak Avenue</td>
+                                </tr>
                                 </tbody>
                             </table>
                         </div>
+
 
                     </div>
 
