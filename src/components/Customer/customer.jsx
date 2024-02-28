@@ -15,7 +15,7 @@ function Customer(){
     useEffect(() => {
         const handleResize = () => {
             // Update showSideBar state based on screen width
-            setShowSideBar(window.innerWidth >=770); // Adjust the breakpoint as needed
+            setShowSideBar(window.innerWidth >= 770); // Adjust the breakpoint as needed
 
         };
 
@@ -74,12 +74,12 @@ function Customer(){
 
                     <div className="row mt-5">
 
-                        <div className="col-12 col-xxl-4 col-xl-4 col-lg-5 col-md-5 mt-3">
+                        <div className="col-12 col-xxl-4 col-xl-4 col-lg-5 col-md-7 mt-3">
                             <img src={images.customerLogo2} className="mt-5 ml-5" style={{width:"200px"}}/>
                         </div>
 
 
-                        <div className="col-12 col-xxl-8 col-xl-8 col-lg-7 col-md-7">
+                        <div className="col-12 col-xxl-8 col-xl-8 col-lg-7 col-md-5">
                             <form>
                                 <div className="form-group">
                                     <label htmlFor="formGroupExampleInput2" className="text-black fw-bold">Customer Id</label>
@@ -101,9 +101,9 @@ function Customer(){
                         </div>
 
 
-                        <div className="col-12 col-xxl-4 col-xl-4 col-lg-5 col-md-5"></div>
+                        <div className="col-12 col-xxl-4 col-xl-4 col-lg-5 col-md-7"></div>
 
-                        <div className="col-12 col-xxl-8 col-xl-8 col-lg-7 col-md-7">
+                        <div className="col-12 col-xxl-8 col-xl-8 col-lg-7 col-md-5">
                             <button type="button" className="btn btn-success">Save</button>
                             <button type="button" className="btn btn-warning">Update</button>
                             <button type="button" className="btn btn-danger">Delete</button>
