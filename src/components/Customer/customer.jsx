@@ -3,6 +3,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import images from "../../constants/image";
 import SideBar from "../SideBar/SideBar";
 import MobileSideBar from "../SideBar/mobileSideBar";
+import '../Item/Item.css'
 
 
 function Customer(){
@@ -64,7 +65,7 @@ function Customer(){
 
             <div className="container-fluid">
 
-                <div className="row" style={{ ...customer, ...mediaQueryStyles }}>
+                <div className="row" style={{ ...customer, ...mediaQueryStyles }} id="PageColour">
 
                     <div className="col-12">Hi Customer</div>
 
