@@ -74,12 +74,12 @@ function Customer(){
 
                     <div className="row mt-5">
 
-                        <div className="col-12 col-xxl-4 col-xl-4 mt-3">
+                        <div className="col-12 col-xxl-4 col-xl-4 col-lg-5 mt-3">
                             <img src={images.customerLogo2} className="mt-5 ml-5" style={{width:"200px"}}/>
                         </div>
 
 
-                        <div className="col-12 col-xxl-8 col-xl-8">
+                        <div className="col-12 col-xxl-8 col-xl-8 col-lg-7">
                             <form>
                                 <div className="form-group">
                                     <label htmlFor="formGroupExampleInput2" className="text-black fw-bold">Customer Id</label>
@@ -101,9 +101,9 @@ function Customer(){
                         </div>
 
 
-                        <div className="col-12 col-xxl-4 col-xl-4"></div>
+                        <div className="col-12 col-xxl-4 col-xl-4 col-lg-5"></div>
 
-                        <div className="col-12 col-xxl-8 col-xl-8">
+                        <div className="col-12 col-xxl-8 col-xl-8 col-lg-7">
                             <button type="button" className="btn btn-success">Save</button>
                             <button type="button" className="btn btn-warning">Update</button>
                             <button type="button" className="btn btn-danger">Delete</button>
@@ -114,7 +114,7 @@ function Customer(){
                             <h1 className="text-center fw-bold mt-3">Save Customers</h1>
                         </div>
 
-                        <div className="col-12 col-xxl-12 col-xl-12 mt-3">
+                        <div className="col-12 col-xxl-12 col-xl-12 col-lg-12 mt-3">
                             <table className="table">
                                 <thead>
                                 <tr>
