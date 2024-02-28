@@ -3,6 +3,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import './mobileNav.css'
 import { openNav, closeNav } from '../SideBar/mobliNav';
 import React, { useState, useEffect } from 'react';
+import {BrowserRouter as Router, Routes, Route, Link,} from "react-router-dom";
 
 function MobileSideBar() {
     const [isMobileNavVisible, setIsMobileNavVisible] = useState(false);
@@ -31,8 +32,19 @@ function MobileSideBar() {
             <div id="mobile_navi" className="position-fixed" style={{ zIndex: "9999999999999999", display: isMobileNavVisible ? "block" : "none" }}>
                 <div id="mySidenav" className="sidenav">
                     <button className="closebtn" onClick={closeNav}>&times;</button>
-                    <a href="#">Home</a>
-                    <a href="#">Items</a>
+
+                    <Link to="/home">
+                        <h1>Home</h1>
+                    </Link>
+                    <Link to="/customer">
+                        <h1>Customer</h1>
+                    </Link>
+                    <Link to="/item">
+                        <h1>Item</h1>
+                    </Link>
+                    <Link to="/order">
+                        <h1>Order</h1>
+                    </Link>
                 </div>
 
                 <div id="main">

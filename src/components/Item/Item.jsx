@@ -59,13 +59,14 @@ function Item() {
     return (
         <div>
             {showSideBar && <SideBar />}
+            <MobileSideBar/>
 
              <div className="container-fluid">
 
                  <div className="row" style={{ ...rowCss, ...mediaQueryStyles }}  id="PageColour">
 
-                     <div className="col-12 mt-4">
-                            <h1 className="text-center fw-bold">Stoke Manage</h1>
+                     <div className="col-12 mt-5">
+                            <h1 className="text-center fw-bold mt-5">Stoke Manage</h1>
                      </div>
 
 
