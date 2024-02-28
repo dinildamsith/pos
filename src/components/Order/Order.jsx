@@ -75,13 +75,29 @@ function Order(){
                     <div className="row">
 
                         <div className="col-12">
-                            <h2>Order Id</h2>
-                            <select className="form-select" aria-label="Default select example">
-                                <option selected>Open this select menu</option>
-                                <option value="1">One</option>
 
-                            </select>
-                            <h2>Order Id</h2>
+                            <div className="form-group">
+                                <label htmlFor="formGroupExampleInput2" className="text-black fw-bold">Order Id</label>
+                                <input type="text" className="form-control fw-bold" id="formGroupExampleInput2" placeholder="" disabled/>
+                            </div>
+
+                            <div className="form-group">
+                                <label htmlFor="formGroupExampleInput2" className="text-black fw-bold">Customer Id</label>
+                                <select className="form-select" aria-label="Default select example" id="formGroupExampleInput2">
+                                    <option selected>Open this select menu</option>
+                                </select>
+                            </div>
+
+                            <div className="form-group">
+                                <label htmlFor="formGroupExampleInput2" className="text-black fw-bold">Customer Name</label>
+                                <input type="text" className="form-control fw-bold" id="formGroupExampleInput2" placeholder="" disabled/>
+                            </div>
+
+                            <div className="form-group">
+                                <label htmlFor="formGroupExampleInput2" className="text-black fw-bold">Order Date</label>
+                                <input type="text" className="form-control fw-bold" id="formGroupExampleInput2" placeholder="" disabled/>
+                            </div>
+
                         </div>
 
 
