@@ -2,6 +2,7 @@
 import './App.css';
 import Home from "./components/Home/Home";
 import Item from "./components/Item/Item";
+import Customer from "./components/Customer/customer";
 import {BrowserRouter as Router, Route, Routes, Switch} from 'react-router-dom';
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
             <Routes>
                 <Route path="/home" element={<Home />} />
                 <Route path="/item" element={<Item />} />
+                <Route path="/customer" element={<Customer />} />
             </Routes>
         </Router>
 
