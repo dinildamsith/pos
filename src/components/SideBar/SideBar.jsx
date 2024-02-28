@@ -64,7 +64,7 @@ function SideBar(){
 
 
                 <div className="col-12 ">
-                    <Link to="/">
+                    <Link to="/customer">
                     <img src={images.customerLogo} style={imageStyle} />
                     <button className="btn btn-outline-light btn-lg" style={{ ...btnStyle, borderColor: 'transparent' }}>Customer</button>
                     </Link>
