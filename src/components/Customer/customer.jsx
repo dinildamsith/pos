@@ -67,19 +67,19 @@ function Customer(){
 
                 <div className="row" style={{ ...customer, ...mediaQueryStyles }} id="PageColour">
 
-                    <div className="col-12 mt-4">
-                        <h1 className="text-center fw-bold">Customer Manage</h1>
+                    <div className="col-12 mt-4 mt-sm-5">
+                        <h1 className="text-center fw-bold mt-sm-5">Customer Manage</h1>
                     </div>
 
 
                     <div className="row mt-5">
 
-                        <div className="col-12 col-xxl-4 col-xl-4 col-lg-5 col-md-7 mt-3">
-                            <img src={images.customerLogo2} className="mt-5 ml-5" style={{width:"200px"}}/>
+                        <div className="col-12 col-xxl-4 col-xl-4 col-lg-5 col-md-7 col-sm-7 mt-3">
+                            <img src={images.customerLogo2} className="mt-5 ml-5 mt-sm-2 " style={{width:"200px"}}/>
                         </div>
 
 
-                        <div className="col-12 col-xxl-8 col-xl-8 col-lg-7 col-md-5">
+                        <div className="col-12 col-xxl-8 col-xl-8 col-lg-7 col-md-5 col-sm-5">
                             <form>
                                 <div className="form-group">
                                     <label htmlFor="formGroupExampleInput2" className="text-black fw-bold">Customer Id</label>
@@ -101,10 +101,10 @@ function Customer(){
                         </div>
 
 
-                        <div className="col-12 col-xxl-4 col-xl-4 col-lg-5 col-md-7"></div>
+                        <div className="col-12 col-xxl-4 col-xl-4 col-lg-5 col-md-7 col-sm-7"></div>
 
-                        <div className="col-12 col-xxl-8 col-xl-8 col-lg-7 col-md-5">
-                            <button type="button" className="btn btn-success">Save</button>
+                        <div className="col-12 col-xxl-8 col-xl-8 col-lg-7 col-md-5 col-sm-5 mt-sm-0">
+                            <button type="button" className="btn btn-success ">Save</button>
                             <button type="button" className="btn btn-warning">Update</button>
                             <button type="button" className="btn btn-danger">Delete</button>
                         </div>
@@ -114,7 +114,7 @@ function Customer(){
                             <h1 className="text-center fw-bold mt-3">Save Customers</h1>
                         </div>
 
-                        <div className="col-12 col-xxl-12 col-xl-12 col-lg-12 col-md-12 mt-3">
+                        <div className="col-12 col-xxl-12 col-xl-12 col-lg-12 col-md-12 col-sm-12 mt-3">
                             <table className="table">
                                 <thead>
                                 <tr>
