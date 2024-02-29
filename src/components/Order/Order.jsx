@@ -67,15 +67,15 @@ function Order(){
 
                 <div className="row" style={{ ...rowCss, ...mediaQueryStyles }}  id="PageColour">
 
-                    <div className="col-12 mt-5 mt-xxl-0 mt-xl-0 mt-lg-0 mt-sm-0">
-                        <h1 className="text-center fw-bold mt-5">Order</h1>
+                    <div className="col-12 mt-5 mt-xxl-0 mt-xl-0 mt-lg-0 mt-3 mt-lg-0">
+                        <h1 className="text-center fw-bold mt-5 ">Order</h1>
                     </div>
 
 
                     <div className="row">
 
-                        <div className="col-12 col-xxl-3 col-xl-3 col-lg-3 col-md-4 ">
-                            <div>
+                        <div className="col-12 col-xxl-3 col-xl-3 col-lg-3 col-md-4 mt-2">
+                            <div className="mt-3">
                                 <div className="form-group">
                                     <label htmlFor="formGroupExampleInput2" className="text-black fw-bold">Order Id</label>
                                     <input type="text" className="form-control fw-bold bg-white" id="formGroupExampleInput2" placeholder="" disabled/>
@@ -102,11 +102,11 @@ function Order(){
                         </div>
 
 
-                        <div className="col-12 col-xxl-5 col-xl-5 col-lg-4 col-md-4 ">
-                            <img src={images.selectItem} className="mt-5 mw-100 d-block mx-auto"/>
+                        <div className="col-12 col-xxl-5 col-xl-5 col-lg-4 col-md-4 mt-5 mt-xxl-5 mt-xl-5 mt-lg-5 mt-md-5">
+                            <img src={images.selectItem} className="mt-0 mw-100 d-block mx-auto mt-xxl-5 mt-xl-5 mt-lg-5 mt-md-5"/>
                         </div>
 
-                        <div className="col-12 col-xxl-4 col-xl-4 col-lg-5 col-md-4">
+                        <div className="col-12 col-xxl-4 col-xl-4 col-lg-5 col-md-4 mt-5">
 
                             <div>
 
@@ -143,7 +143,7 @@ function Order(){
 
 
 
-                    <div className="col-12 col-xxl-8 col-xl-8 col-lg-7 col-md-7 mt-4">
+                    <div className="col-12 col-xxl-8 col-xl-8 col-lg-7 col-md-7 mt-5 ">
                         <h1 className="fw-bold text-center">Cart</h1>
 
 
