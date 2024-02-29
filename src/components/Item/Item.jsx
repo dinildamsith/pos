@@ -58,7 +58,7 @@ function Item() {
     ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
     return (
-        <div>
+        <div style={{overflowX:"hidden"}}>
             {showSideBar && <SideBar />}
             <MobileSideBar/>
 
@@ -130,7 +130,7 @@ function Item() {
                          </div>
 
 
-                         <div className="col-12 col-xxl-3 col-xl-3 col-lg-3 col-md-2 col-sm-2 ml-5 mt-3">
+                         <div className="col-12 col-xxl-3 col-xl-3 col-lg-3 col-md-2 col-sm-2 ml-2 mt-3 ">
                              <img src={images.selectItem}/>
                              <h5 className="text-center fw-bold">I001</h5>
                              <h5 className="text-center fw-bold">Lap Top</h5>
