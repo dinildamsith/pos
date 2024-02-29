@@ -85,7 +85,7 @@ function SideBar(){
                 </div>
 
                 <div className="col-12 ">
-                    <Link to="/">
+                    <Link to="/orderManage">
                     <img src={images.orderManage} style={imageStyle}/>
                     <button className="btn btn-outline-light btn-lg" style={{ ...btnStyle, borderColor: 'transparent' }}>Order Manage</button>
                     </Link>

@@ -45,6 +45,9 @@ function MobileSideBar() {
                     <Link to="/order">
                         <h1>Order</h1>
                     </Link>
+                    <Link to="/orderManage">
+                        <h1>Order Manage</h1>
+                    </Link>
                 </div>
 
                 <div id="main">
