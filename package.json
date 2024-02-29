@@ -1,6 +1,6 @@
 {
-  "homepage": "https://dinildamsith.github.io/d-zone_frontEnd",
-  "name": "d-zone",
+  "homepage": "https://dinildamsith.github.io/pos",
+  "name": "pos",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
