@@ -57,7 +57,7 @@ function SideBar(){
 
             <div className="row" style={btnGroupRow} >
 
-                <Link to="/home">
+                <Link to="/d-zone_frontEnd">
                     <img src={images.homeLogo} style={imageStyle} alt="Home Logo" />
                     <button className="btn btn-outline-light btn-lg" style={{ ...btnStyle, borderColor: 'transparent' }}>Home</button>
                 </Link>
