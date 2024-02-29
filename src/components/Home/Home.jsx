@@ -9,6 +9,7 @@ import DateAndTime from "../DateAndTime/DateAndTime";
 
 
 
+
 function Home () {
 
  ////////////////////////////////////////////////////////////////////////////////////////////////
@@ -53,6 +54,31 @@ function Home () {
     }, []);
 
 
+
+    const [greeting, setGreeting] = useState('');
+
+    useEffect(() => {
+        const updateGreeting = () => {
+            const currentHour = new Date().getHours();
+
+            if (currentHour >= 5 && currentHour < 12) {
+                setGreeting('Good Morning...');
+            } else if (currentHour >= 12 && currentHour < 18) {
+                setGreeting('Good Afternoon...');
+            } else {
+                setGreeting('Good Evening...');
+            }
+        };
+
+        // Update the greeting initially and every minute
+        updateGreeting();
+        const intervalId = setInterval(updateGreeting, 60000);
+
+        // Clear the interval when the component is unmounted
+        return () => clearInterval(intervalId);
+    }, []);
+
+
     ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
     // Mobile Size Remove D zone Word
@@ -88,7 +114,6 @@ function Home () {
     /////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 
-
     return(
         <div>
             {showSideBar && <SideBar />}
@@ -98,8 +123,9 @@ function Home () {
 
                 <div className="row" style={{ ...home, ...mediaQueryStyles }}>
 
-                    <div className="col-12 mt-3 col-sm-7 col-md-7 col-lg-8 col-xl-9 col-xxl-9">
-                        <h1 className="mb-5 fw-bold fs-5" >Good Morning...</h1>
+                    <div className="col-12 col-sm-7 col-md-7 col-lg-8 col-xl-9 col-xxl-9 mt-5 mt-xxl-0 mt-xl-0 mt-lg-0 mt-md-0">
+                        <h1 id="greeting" className="mb-5 fw-bold fs-1 fs-xxl-5 mt-5">{greeting}</h1>
+
                     </div>
 
                     <div className="col-12 col-sm-5 col-md-5 col-lg-4 col-xl-3 col-xxl-3" >
@@ -127,7 +153,7 @@ function Home () {
 
                     <div className="col-12  col-sm-6 col-md-6 col-lg-8"></div>
 
-                    <div className="position-relative col-12 mt-1 d-flex justify-content-center col-sm-6 mb-sm-5 col-md-6 col-lg-4"  style={dataAndTimeRow}>
+                    <div className="position-relative col-12 mt-1 d-flex justify-content-center col-sm-6 mb-sm-5 col-md-6 col-lg-4 "  style={dataAndTimeRow}>
                         <div className="bg-black rounded-4 position-relative" style={dataAndTimeStyles}>
 
                             <DateAndTime />
