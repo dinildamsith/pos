@@ -95,7 +95,7 @@ function OrderManage(){
 
 
                     <div className="col-12 col-xxl-6 col-xl-7 col-lg-8 col-md-7 col-sm-7 mt-5 bg-black rounded-5">
-                        <h1 >Order Details Table</h1>
+                        <h1 className="text-center fw-bold mt-1 text-white">Order Details Table</h1>
                         <table className="table mt-2 ">
                             <thead >
                             <tr>
