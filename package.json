@@ -43,5 +43,20 @@
   },
   "devDependencies": {
     "gh-pages": "^6.1.1"
+  },
+
+  "hosting": {
+    "public": "build",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
   }
 }
