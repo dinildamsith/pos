@@ -74,7 +74,7 @@ function Order(){
 
                     <div className="row">
 
-                        <div className="col-12 col-xxl-3">
+                        <div className="col-12 col-xxl-3 col-xl-3">
                             <div>
                                 <div className="form-group">
                                     <label htmlFor="formGroupExampleInput2" className="text-black fw-bold">Order Id</label>
@@ -102,11 +102,11 @@ function Order(){
                         </div>
 
 
-                        <div className="col-12 col-xxl-5 ">
+                        <div className="col-12 col-xxl-5 col-xl-5 ">
                             <img src={images.selectItem} className="mt-5 mw-100 d-block mx-auto"/>
                         </div>
 
-                        <div className="col-12 col-xxl-4">
+                        <div className="col-12 col-xxl-4 col-xl-4">
 
                             <div>
 
@@ -132,7 +132,7 @@ function Order(){
                                     <input type="text" className="form-control fw-bold" id="formGroupExampleInput2" placeholder=""/>
                                 </div>
 
-                                <button type="button" className="btn btn-success">Add To Cart </button>
+                                <button type="button" className="btn btn-success col-12">Add To Cart </button>
                             </div>
 
                         </div>
@@ -143,7 +143,7 @@ function Order(){
 
 
 
-                    <div className="col-12 col-xxl-8 mt-xxl-4">
+                    <div className="col-12 col-xxl-8 col-xl-8 mt-4">
                         <h1 className="fw-bold text-center">Cart</h1>
 
 
@@ -165,7 +165,7 @@ function Order(){
 
 
 
-                    <div className="col-12 col-xxl-2 mt-xxl-5">
+                    <div className="col-12 col-xxl-2 col-xl-3 mt-5">
 
                         <div className="mt-5">
                             <div className="form-group">
@@ -183,7 +183,7 @@ function Order(){
                                 <input type="text" className="form-control fw-bold bg-white" id="formGroupExampleInput2" placeholder="" disabled/>
                             </div>
 
-                            <button type="button" className="btn btn-success">Add To Cart </button>
+                            <button type="button" className="btn btn-success col-12">Add To Cart </button>
                         </div>
 
 
