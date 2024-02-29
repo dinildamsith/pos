@@ -1,17 +1,18 @@
 {
   "files": {
-    "main.css": "/d-zone_frontEnd/static/css/main.fd009c5b.css",
-    "main.js": "/d-zone_frontEnd/static/js/main.c2f59aef.js",
-    "static/media/headSet.png": "/d-zone_frontEnd/static/media/headSet.137e6b5c5adb90b297fb.png",
-    "static/media/selectItem.png": "/d-zone_frontEnd/static/media/selectItem.6a90098a32fe34170920.png",
-    "static/media/dz_logo.png": "/d-zone_frontEnd/static/media/dz_logo.2517f4e334f0734db554.png",
-    "static/media/homeLogo.png": "/d-zone_frontEnd/static/media/homeLogo.fa3f96f2c6ad15440938.png",
-    "index.html": "/d-zone_frontEnd/index.html",
-    "main.fd009c5b.css.map": "/d-zone_frontEnd/static/css/main.fd009c5b.css.map",
-    "main.c2f59aef.js.map": "/d-zone_frontEnd/static/js/main.c2f59aef.js.map"
+    "main.css": "/pos/static/css/main.ea79827b.css",
+    "main.js": "/pos/static/js/main.636d87e3.js",
+    "static/media/headSet.png": "/pos/static/media/headSet.137e6b5c5adb90b297fb.png",
+    "static/media/customerLogo2.png": "/pos/static/media/customerLogo2.9458a5e224886b3f204d.png",
+    "static/media/selectItem.png": "/pos/static/media/selectItem.6a90098a32fe34170920.png",
+    "static/media/dz_logo.png": "/pos/static/media/dz_logo.2517f4e334f0734db554.png",
+    "static/media/homeLogo.png": "/pos/static/media/homeLogo.fa3f96f2c6ad15440938.png",
+    "index.html": "/pos/index.html",
+    "main.ea79827b.css.map": "/pos/static/css/main.ea79827b.css.map",
+    "main.636d87e3.js.map": "/pos/static/js/main.636d87e3.js.map"
   },
   "entrypoints": [
-    "static/css/main.fd009c5b.css",
-    "static/js/main.c2f59aef.js"
+    "static/css/main.ea79827b.css",
+    "static/js/main.636d87e3.js"
   ]
 }
