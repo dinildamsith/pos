@@ -74,7 +74,7 @@ function Order(){
 
                     <div className="row">
 
-                        <div className="col-12 col-xxl-3 col-xl-3 col-lg-3 ">
+                        <div className="col-12 col-xxl-3 col-xl-3 col-lg-3 col-md-4 ">
                             <div>
                                 <div className="form-group">
                                     <label htmlFor="formGroupExampleInput2" className="text-black fw-bold">Order Id</label>
@@ -102,11 +102,11 @@ function Order(){
                         </div>
 
 
-                        <div className="col-12 col-xxl-5 col-xl-5 col-lg-4 ">
+                        <div className="col-12 col-xxl-5 col-xl-5 col-lg-4 col-md-4 ">
                             <img src={images.selectItem} className="mt-5 mw-100 d-block mx-auto"/>
                         </div>
 
-                        <div className="col-12 col-xxl-4 col-xl-4 col-lg-5">
+                        <div className="col-12 col-xxl-4 col-xl-4 col-lg-5 col-md-4">
 
                             <div>
 
@@ -143,7 +143,7 @@ function Order(){
 
 
 
-                    <div className="col-12 col-xxl-8 col-xl-8 col-lg-7 mt-4">
+                    <div className="col-12 col-xxl-8 col-xl-8 col-lg-7 col-md-7 mt-4">
                         <h1 className="fw-bold text-center">Cart</h1>
 
 
@@ -165,7 +165,7 @@ function Order(){
 
 
 
-                    <div className="col-12 col-xxl-2 col-xl-3 col-lg-4 mt-5">
+                    <div className="col-12 col-xxl-2 col-xl-3 col-lg-4 col-md-4 mt-5">
 
                         <div className="mt-5">
                             <div className="form-group">
