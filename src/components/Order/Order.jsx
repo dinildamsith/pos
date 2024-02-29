@@ -143,8 +143,8 @@ function Order(){
 
 
 
-                    <div className="col-12 col-xxl-8 col-xl-8 col-lg-7 col-md-7 mt-5 ">
-                        <h1 className="fw-bold text-center">Cart</h1>
+                    <div className="col-12 col-xxl-8 col-xl-8 col-lg-7 col-md-7 mt-5 bg-black rounded-5">
+                        <h1 className="fw-bold text-center text-white">Cart</h1>
 
 
                         <table className="table">
@@ -165,26 +165,30 @@ function Order(){
 
 
 
-                    <div className="col-12 col-xxl-2 col-xl-3 col-lg-4 col-md-4 mt-5">
+                    <div className="col-12 col-xxl-2 col-xl-3 col-lg-4 col-md-4 mt-5 bg-black rounded-5 ml-xl-1 ml-md-1">
 
-                        <div className="mt-5">
+                        <div className="mt-3">
                             <div className="form-group">
-                                <label htmlFor="formGroupExampleInput2" className="text-black fw-bold">Total</label>
+                                <label htmlFor="formGroupExampleInput2" className="text-black fw-bold text-white">Total</label>
                                 <input type="text" className="form-control fw-bold bg-white" id="formGroupExampleInput2" placeholder="" disabled/>
                             </div>
 
                             <div className="form-group">
-                                <label htmlFor="formGroupExampleInput2" className="text-black fw-bold">Cash</label>
+                                <label htmlFor="formGroupExampleInput2" className="text-black fw-bold text-white">Cash</label>
                                 <input type="text" className="form-control fw-bold bg-white" id="formGroupExampleInput2" placeholder=""/>
                             </div>
 
                             <div className="form-group">
-                                <label htmlFor="formGroupExampleInput2" className="text-black fw-bold">Balance</label>
+                                <label htmlFor="formGroupExampleInput2" className="text-black fw-bold text-white">Balance</label>
                                 <input type="text" className="form-control fw-bold bg-white" id="formGroupExampleInput2" placeholder="" disabled/>
                             </div>
 
                             <button type="button" className="btn btn-success col-12">Add To Cart </button>
+                            <div className="col-12 mt-3"></div>
+
                         </div>
+
+
 
 
                     </div>
