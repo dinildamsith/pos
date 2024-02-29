@@ -143,7 +143,7 @@ function Order(){
 
 
 
-                    <div className="col-12 col-xxl-8 col-xl-8 col-lg-7 col-md-7 mt-5 bg-black rounded-5">
+                    <div className="col-12 col-xxl-8 col-xl-8 col-lg-7 col-md-7 mt-5 bg-black rounded-5 ml-xl-2 ml-md-2">
                         <h1 className="fw-bold text-center text-white">Cart</h1>
 
 
