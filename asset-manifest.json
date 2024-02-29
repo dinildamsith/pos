@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/pos/static/css/main.12c92cb0.css",
-    "main.js": "/pos/static/js/main.23132db5.js",
+    "main.css": "/pos/static/css/main.ea79827b.css",
+    "main.js": "/pos/static/js/main.7a3b5f93.js",
     "static/media/headSet.png": "/pos/static/media/headSet.137e6b5c5adb90b297fb.png",
     "static/media/customerLogo2.png": "/pos/static/media/customerLogo2.9458a5e224886b3f204d.png",
     "static/media/selectItem.png": "/pos/static/media/selectItem.6a90098a32fe34170920.png",
     "static/media/dz_logo.png": "/pos/static/media/dz_logo.2517f4e334f0734db554.png",
     "static/media/homeLogo.png": "/pos/static/media/homeLogo.fa3f96f2c6ad15440938.png",
     "index.html": "/pos/index.html",
-    "main.12c92cb0.css.map": "/pos/static/css/main.12c92cb0.css.map",
-    "main.23132db5.js.map": "/pos/static/js/main.23132db5.js.map"
+    "main.ea79827b.css.map": "/pos/static/css/main.ea79827b.css.map",
+    "main.7a3b5f93.js.map": "/pos/static/js/main.7a3b5f93.js.map"
   },
   "entrypoints": [
-    "static/css/main.12c92cb0.css",
-    "static/js/main.23132db5.js"
+    "static/css/main.ea79827b.css",
+    "static/js/main.7a3b5f93.js"
   ]
 }
