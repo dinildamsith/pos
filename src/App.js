@@ -13,11 +13,9 @@ function App() {
   return (
     <div className="App">
 
-        {/*<Home />*/}
-        {/*<Item />*/}
+
 
         <Router>
-            {/* Define your routes inside the Router */}
             <Routes>
                 <Route path="/pos" element={<Home />} />
                 <Route path="/item" element={<Item />} />
