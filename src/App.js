@@ -19,7 +19,7 @@ function App() {
         <Router>
             {/* Define your routes inside the Router */}
             <Routes>
-                <Route path="/d-zone_frontEnd" element={<Home />} />
+                <Route path="/pos" element={<Home />} />
                 <Route path="/item" element={<Item />} />
                 <Route path="/customer" element={<Customer />} />
                 <Route path="/order" element={<Order />} />

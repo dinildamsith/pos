@@ -33,7 +33,7 @@ function MobileSideBar() {
                 <div id="mySidenav" className="sidenav">
                     <button className="closebtn" onClick={closeNav}>&times;</button>
 
-                    <Link to="/home">
+                    <Link to="/pos">
                         <h1>Home</h1>
                     </Link>
                     <Link to="/customer">
