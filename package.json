@@ -1,6 +1,6 @@
 {
   "homepage": "https://dinildamsith.github.io/pos",
-  "name": "package.json",
+  "name": "d-zone",
   "version": "1.0.0",
   "private": true,
   "dependencies": {
@@ -43,20 +43,5 @@
   },
   "devDependencies": {
     "gh-pages": "^6.1.1"
-  },
-  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
-  "main": "https://dinildamsith.github.io/pos/",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/dinildamsith/pos.git"
-  },
-  "keywords": [
-    "pos",
-    "dzone"
-  ],
-  "author": "dinildamsith",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/dinildamsith/pos/issues"
   }
 }
