@@ -1,7 +1,7 @@
 {
   "homepage": "https://dinildamsith.github.io/pos",
-  "name": "d-zone",
-  "version": "0.1.0",
+  "name": "package.json",
+  "version": "1.0.0",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
@@ -11,7 +11,7 @@
     "normalize.css": "^8.0.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-router-dom": "^6.22.1",
+    "react-router-dom": "^6.22.2",
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4"
   },
@@ -43,5 +43,20 @@
   },
   "devDependencies": {
     "gh-pages": "^6.1.1"
+  },
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+  "main": "https://dinildamsith.github.io/pos/",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dinildamsith/pos.git"
+  },
+  "keywords": [
+    "pos",
+    "dzone"
+  ],
+  "author": "dinildamsith",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dinildamsith/pos/issues"
   }
 }
