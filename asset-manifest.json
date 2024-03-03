@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/pos/static/css/main.ea79827b.css",
+    "main.css": "/pos/static/css/main.f03e10ac.css",
     "main.js": "/pos/static/js/main.d3f95e40.js",
     "static/media/headSet.png": "/pos/static/media/headSet.137e6b5c5adb90b297fb.png",
     "static/media/customerLogo2.png": "/pos/static/media/customerLogo2.9458a5e224886b3f204d.png",
@@ -8,11 +8,11 @@
     "static/media/dz_logo.png": "/pos/static/media/dz_logo.2517f4e334f0734db554.png",
     "static/media/homeLogo.png": "/pos/static/media/homeLogo.fa3f96f2c6ad15440938.png",
     "index.html": "/pos/index.html",
-    "main.ea79827b.css.map": "/pos/static/css/main.ea79827b.css.map",
+    "main.f03e10ac.css.map": "/pos/static/css/main.f03e10ac.css.map",
     "main.d3f95e40.js.map": "/pos/static/js/main.d3f95e40.js.map"
   },
   "entrypoints": [
-    "static/css/main.ea79827b.css",
+    "static/css/main.f03e10ac.css",
     "static/js/main.d3f95e40.js"
   ]
 }
