@@ -1,7 +1,10 @@
-
+html{
+    overflow-x: hidden;
+}
 
 #PageColour{
     background-color: #C6C6C6;
+    overflow-x: hidden;
 }
 
 @media all  and (Max-width: 1200px ) {
