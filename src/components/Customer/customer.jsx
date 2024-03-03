@@ -6,6 +6,7 @@ import MobileSideBar from "../SideBar/mobileSideBar";
 import '../Item/Item.css'
 
 
+
 function Customer(){
 
     ////////////////////////////////////////////////////////////////////////////////////////////////
@@ -104,9 +105,9 @@ function Customer(){
                         <div className="col-12 col-xxl-4 col-xl-4 col-lg-5 col-md-7 col-sm-7"></div>
 
                         <div className="col-12 col-xxl-8 col-xl-8 col-lg-7 col-md-5 col-sm-5 mt-sm-0 text-center">
-                            <button type="button" className="btn btn-success ">Save</button>
-                            <button type="button" className="btn btn-warning">Update</button>
-                            <button type="button" className="btn btn-danger">Delete</button>
+                            <button type="button" className="btn btn-success fw-bold col-12 ">Save</button>
+                            <button type="button" className="btn btn-warning fw-bold col-6 ">Update</button>
+                            <button type="button" className="btn btn-danger fw-bold col-6">Delete</button>
                         </div>
 
 
