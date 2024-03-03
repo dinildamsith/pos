@@ -110,12 +110,14 @@ function Customer(){
                         </div>
 
 
-                        <div className="col-12 mt-5">
-                            <h1 className="text-center fw-bold mt-3">Save Customers</h1>
-                        </div>
 
-                        <div className="col-12 col-xxl-12 col-xl-12 col-lg-12 col-md-12 col-sm-12 mt-3">
-                            <table className="table">
+
+                        <div className="col-12 col-xxl-12 col-xl-12 col-lg-12 col-md-12 col-sm-12 mt-3 bg-black rounded-5 ml-xxl-2 ml-xl-2 ml-lg-2 ml-md-2 ml-sm-2 ml-2">
+                            <div className="col-12 mt-3">
+                                <h1 className="text-center fw-bold mt-3 text-white">Save Customers</h1>
+                            </div>
+
+                            <table className="table mt-3">
                                 <thead>
                                 <tr>
                                     <th scope="col">Id</th>

@@ -126,7 +126,7 @@ function Item() {
      {/*////////////////////-----------------------------Save Item Table---------------------------/////////////////////////*/}
 
                          <div className="col-12 lg-mt-5">
-                             <h3 className="text-center mt-3 fw-bold">Save Items</h3>
+                             <h1 className="text-center mt-3 fw-bold">Save Items</h1>
                          </div>
 
 
