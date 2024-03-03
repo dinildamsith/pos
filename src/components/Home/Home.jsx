@@ -153,7 +153,7 @@ function Home () {
 
                     <div className="col-12  col-sm-6 col-md-6 col-lg-8"></div>
 
-                    <div className="position-relative col-12 mt-1 d-flex justify-content-center col-sm-6 mb-sm-5 col-md-6 col-lg-4 "  style={dataAndTimeRow}>
+                    <div className="position-relative col-12 mt-1 d-flex justify-content-center col-sm-6 mb-sm-5 col-md-6 col-lg-4  d-xxl-none d-xl-none d-lg-none d-sm-none"  style={dataAndTimeRow}>
                         <div className="bg-black rounded-4 position-relative" style={dataAndTimeStyles}>
 
                             <DateAndTime />
