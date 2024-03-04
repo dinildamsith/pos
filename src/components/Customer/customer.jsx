@@ -4,6 +4,8 @@ import images from "../../constants/image";
 import SideBar from "../SideBar/SideBar";
 import MobileSideBar from "../SideBar/mobileSideBar";
 import '../Item/Item.css'
+import './Customers'
+
 
 
 
@@ -83,20 +85,20 @@ function Customer(){
                         <div className="col-12 col-xxl-8 col-xl-8 col-lg-7 col-md-5 col-sm-5">
                             <form>
                                 <div className="form-group">
-                                    <label htmlFor="formGroupExampleInput2" className="text-black fw-bold">Customer Id</label>
-                                    <input type="text" className="form-control fw-bold" id="formGroupExampleInput2" placeholder="C001"/>
+                                    <label htmlFor="customerIdTxt" className="text-black fw-bold">Customer Id</label>
+                                    <input type="text" className="form-control fw-bold" id="customerIdTxt" placeholder="C001"/>
                                 </div>
                                 <div className="form-group">
-                                    <label htmlFor="formGroupExampleInput2" className="text-black fw-bold">Customer Name</label>
-                                    <input type="text" className="form-control fw-bold" id="formGroupExampleInput2" placeholder="Dinil Damsith"/>
+                                    <label htmlFor="customerNameTxt" className="text-black fw-bold">Customer Name</label>
+                                    <input type="text" className="form-control fw-bold" id="customerNameTxt" placeholder="Dinil Damsith"/>
                                 </div>
                                 <div className="form-group">
-                                    <label htmlFor="formGroupExampleInput2" className="text-black fw-bold">Mail</label>
-                                    <input type="text" className="form-control fw-bold" id="formGroupExampleInput2" placeholder="dinil@gmail.com"/>
+                                    <label htmlFor="customerMailTxt" className="text-black fw-bold">Mail</label>
+                                    <input type="text" className="form-control fw-bold" id="customerMailTxt" placeholder="dinil@gmail.com"/>
                                 </div>
                                 <div className="form-group">
-                                    <label htmlFor="formGroupExampleInput2" className="text-black fw-bold">Address</label>
-                                    <input type="text" className="form-control fw-bold" id="formGroupExampleInput2" placeholder="Avissawella"/>
+                                    <label htmlFor="customerAddresTxt" className="text-black fw-bold">Address</label>
+                                    <input type="text" className="form-control fw-bold" id="customerAddresTxt" placeholder="Avissawella"/>
                                 </div>
                             </form>
                         </div>
