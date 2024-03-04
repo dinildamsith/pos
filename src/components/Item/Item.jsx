@@ -96,6 +96,10 @@ function Item() {
                                     <label htmlFor="formGroupExampleInput2" className="text-black fw-bold">Qty</label>
                                     <input type="text" className="form-control fw-bold" id="formGroupExampleInput2" placeholder="20"/>
                                 </div>
+
+                                <button type="button" className="btn btn-success col-12">Save</button>
+                                <button type="button" className="btn btn-warning col-12">Update</button>
+                                <button type="button" className="btn btn-danger col-12">Delete</button>
                             </form>
 
                         </div>
@@ -117,9 +121,9 @@ function Item() {
                      </div>
 
                      <div className="col-12 col-xxl-3 col-xl-3 col-lg-4  col-md-6  col-sm-5 mt-5  sm-ml-5  text-center" id="itemBtnCol">
-                         <button type="button" className="btn btn-success">Save</button>
-                         <button type="button" className="btn btn-warning">Update</button>
-                         <button type="button" className="btn btn-danger">Delete</button>
+                         {/*<button type="button" className="btn btn-success col-12">Save</button>*/}
+                         {/*<button type="button" className="btn btn-warning col-12">Update</button>*/}
+                         {/*<button type="button" className="btn btn-danger col-12">Delete</button>*/}
                      </div>
 
 

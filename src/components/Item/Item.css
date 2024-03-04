@@ -7,18 +7,36 @@ html{
     overflow-x: hidden;
 }
 
+
+
+
+
+@media all  and (Max-width: 2000px ) {
+
+    #fileChoseCol{
+        margin-top: -168px;
+    }
+
+}
 @media all  and (Max-width: 1200px ) {
     #manageItemCol{
         margin-top: 115px;
     }
     #fileChoseCol{
-        margin-top: -458px;
+        margin-top: -550px;
     }
     #itemBtnCol{
         top: -443px;
     }
 }
 
+@media all  and (Max-width: 1200px ) {
+
+    #fileChoseCol{
+        margin-top: -546px;
+    }
+
+}
 @media all  and (Max-width: 576px ) {
     #manageItemCol{
         margin-top: 196px;
