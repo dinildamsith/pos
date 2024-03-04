@@ -18,9 +18,9 @@ $(document).ready(function() {
             http.onreadystatechange = () =>{
                 //Validation
                 if (http.readyState === 4 && http.status === 200) {
-                    alert("Sucess")
+                    alert("Success")
                 }else{
-                    alert("Faild")
+                    alert("Failed")
                 }
             }
             http.open("POST","http://localhost:8080/d_zone/customer",true);
