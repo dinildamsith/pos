@@ -98,7 +98,7 @@ function Customer(){
                                 </div>
                                 <div className="form-group">
                                     <label htmlFor="customerAddresTxt" className="text-black fw-bold">Address</label>
-                                    <input type="text" className="form-control fw-bold" id="customerAddresTxt" placeholder="Avissawella"/>
+                                    <input type="text" className="form-control fw-bold" id="customerAddressTxt" placeholder="Avissawella"/>
                                 </div>
                             </form>
                         </div>
