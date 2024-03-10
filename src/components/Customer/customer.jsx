@@ -115,12 +115,12 @@ function Customer(){
 
 
 
-                        <div className="col-12 col-xxl-12 col-xl-12 col-lg-12 col-md-12 col-sm-12 mt-3 bg-black rounded-5 ml-xxl-2 ml-xl-2 ml-lg-2 ml-md-2 ml-sm-2 ml-2">
+                        <div className="col-12 col-xxl-12 col-xl-12 col-lg-12 col-md-12 col-sm-12 mt-3 bg-black rounded-5 ml-xxl-2 ml-xl-2 ml-lg-2 ml-md-2 ml-sm-2 ml-2 mt-xxl-5">
                             <div className="col-12 mt-3">
                                 <h1 className="text-center fw-bold mt-3 text-white">Save Customers</h1>
                             </div>
 
-                            <table className="table mt-3">
+                            <table className="table mt-3 mt-xxl-4">
                                 <thead>
                                 <tr>
                                     <th scope="col">Id</th>
@@ -129,20 +129,7 @@ function Customer(){
                                     <th scope="col">Address</th>
                                 </tr>
                                 </thead>
-                                <tbody id="customer_Table">
-                                <tr>
-                                    <td>1</td>
-                                    <td>John Doe</td>
-                                    <td>0714430305</td>
-                                    <td>123 Main Street</td>
-                                </tr>
-                                <tr>
-                                    <td>2</td>
-                                    <td>Jane Smith</td>
-                                    <td>0713207782</td>
-                                    <td>456 Oak Avenue</td>
-                                </tr>
-                                </tbody>
+                                <tbody id="customer_Table"></tbody>
                             </table>
                         </div>
 

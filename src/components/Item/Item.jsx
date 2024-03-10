@@ -135,7 +135,7 @@ function Item() {
 
 
                          <div className="col-12 col-xxl-3 col-xl-3 col-lg-3 col-md-2 col-sm-2 ml-2 mt-3 ">
-                             <img src={images.selectItem}/>
+                             <img src={images.selectItem} className="mx-auto d-block"/>
                              <h5 className="text-center fw-bold">I001</h5>
                              <h5 className="text-center fw-bold">Lap Top</h5>
                              <h5 className="text-center fw-bold">Rs 40000.00</h5>
