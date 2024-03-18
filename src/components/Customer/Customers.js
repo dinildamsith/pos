@@ -23,7 +23,7 @@ $(document).ready(function() {
                     alert("Failed")
                 }
             }
-            http.open("POST","http://localhost:8080/Dzone//customer",true);
+            http.open("POST","http://localhost:8080/D_Zone_BackEnd_war_exploded/customer",true);
             http.setRequestHeader("Content-Type","application/json");
             http.send(customerDetailsJsonObj)
         }
