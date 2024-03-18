@@ -4,12 +4,12 @@ import 'jquery'
 
 $(document).ready(function() {
     $("#customerSaveBtn").on('click', function() {
-        var customerId = $("#customerIdTxt").val();
-        var customerName = $("#customerNameTxt").val();
-        var customerMail = $("#customerMailTxt").val();
-        var customerAddress = $("#customerAddressTxt").val();
+        var cust_Id = $("#customerIdTxt").val();
+        var cust_Name = $("#customerNameTxt").val();
+        var cust_Mail = $("#customerMailTxt").val();
+        var cust_Address = $("#customerAddressTxt").val();
 
-        var customerDetailsObject = new CustomerModel(customerId, customerName, customerMail, customerAddress);
+        var customerDetailsObject = new CustomerModel(cust_Id, cust_Name, cust_Mail, cust_Address);
 
         var customerDetailsJsonObject = JSON.stringify(customerDetailsObject)
 
