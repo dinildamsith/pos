@@ -2,6 +2,10 @@ import {CustomerModel} from '../../Model/CustomerModel'
 import $ from 'jquery';
 import 'jquery'
 
+
+getAllCustomers();
+
+// Save Customer
 $(document).ready(function() {
     $("#customerSaveBtn").on('click', function() {
         var cust_Id = $("#customerIdTxt").val();
@@ -31,3 +35,19 @@ $(document).ready(function() {
         sendAJAX(customerDetailsJsonObject)
     });
 });
+
+
+// Get All Customer
+function getAllCustomers(){
+    fetch("http://localhost:8080/D_Zone_BackEnd_war_exploded/customer")
+        .then(response => response.json())
+        .then(data => {
+            // Call the function to load customer data into the table
+           // LoadCustomerData(data);
+            console.log(data)
+
+        })
+        .catch(error => console.error('Error fetching data:', error));
+}
+
+
