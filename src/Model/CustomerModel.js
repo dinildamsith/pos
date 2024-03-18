@@ -1,8 +1,8 @@
 export class CustomerModel{
     constructor(id, name, mail, address){
-        this.customerId = id;
-        this.customerName = name;
-        this.customerMail = mail;
-        this.customerAddress = address;
+        this.cust_Id = id;
+        this.cust_Name = name;
+        this.cust_Mail = mail;
+        this.cust_Address = address;
     }
 }
