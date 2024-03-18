@@ -23,7 +23,7 @@ $(document).ready(function() {
                     alert("Failed")
                 }
             }
-            http.open("POST","http://localhost:8080/d_zone/customer",true);
+            http.open("POST","http://localhost:8080/Dzone//customer",true);
             http.setRequestHeader("Content-Type","application/json");
             http.send(customerDetailsJsonObj)
         }

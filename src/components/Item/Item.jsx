@@ -133,14 +133,68 @@ function Item() {
                              <h1 className="text-center mt-3 fw-bold">Save Items</h1>
                          </div>
 
+                     <div className="col-12 col-xxl-3 col-xl-4 col-lg-6 col-md-6 col-sm-6">
 
                          <div className="col-12 col-xxl-3 col-xl-3 col-lg-3 col-md-2 col-sm-2 ml-2 mt-3 ">
                              <img src={images.selectItem} className="mx-auto d-block"/>
+
+                             <div className="ml-5">
+                                 <h5 className="text-center fw-bold ml-5">I001</h5>
+                                 <h5 className="text-center fw-bold ml-5">Lap Top</h5>
+                                 <h5 className="text-center fw-bold ml-5  d-block-ruby">Rs 40000.00</h5>
+                                 <h5 className="text-center fw-bold ml-5">40</h5>
+                             </div>
+
+                         </div>
+
+
+                     </div>
+
+                     <div className="col-12 col-xxl-3 col-xl-4 col-lg-6 col-md-6 col-sm-6">
+
+                         <div className="col-12 col-xxl-3 col-xl-3 col-lg-3 col-md-2 col-sm-2 ml-2 mt-3 ">
+                             <img src={images.selectItem} className="mx-auto d-block"/>
+
+                             <h5 className="text-center fw-bold">I001</h5>
+                             <h5 className="text-center fw-bold">Lap Top</h5>
+                             <h5 className="text-center fw-bold">Rs 40000.00</h5>
+                             <h5 className="text-center fw-bold">40</h5>
+
+                         </div>
+
+                     </div>
+
+
+                     <div className="col-12 col-xxl-3 col-xl-4 col-lg-6 col-md-6 col-sm-6">
+
+                         <div className="col-12 col-xxl-3 col-xl-3 col-lg-3 col-md-2 col-sm-2 ml-2 mt-3 ">
+                             <img src={images.selectItem} className="mx-auto d-block"/>
+
                              <h5 className="text-center fw-bold">I001</h5>
                              <h5 className="text-center fw-bold">Lap Top</h5>
                              <h5 className="text-center fw-bold">Rs 40000.00</h5>
                              <h5 className="text-center fw-bold">40</h5>
                          </div>
+
+
+                     </div>
+
+
+                     <div className="col-12 col-xxl-3 col-xl-4 col-lg-6 col-md-6 col-sm-6">
+
+                         <div className="col-12 col-xxl-3 col-xl-3 col-lg-3 col-md-2 col-sm-2 ml-2 mt-3 ">
+                             <img src={images.selectItem} className="mx-auto d-block"/>
+
+                             <h5 className="text-center fw-bold">I001</h5>
+                             <h5 className="text-center fw-bold">Lap Top</h5>
+                             <h5 className="text-center fw-bold">Rs 40000.00</h5>
+                             <h5 className="text-center fw-bold">40</h5>
+
+                         </div>
+
+                     </div>
+
+
 
 
 
