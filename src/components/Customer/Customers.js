@@ -43,11 +43,19 @@ function getAllCustomers(){
         .then(response => response.json())
         .then(data => {
             // Call the function to load customer data into the table
-           // LoadCustomerData(data);
-            console.log(data)
+           getAllCustomerSetCustomerTable(data)
+
 
         })
         .catch(error => console.error('Error fetching data:', error));
 }
 
+const getAllCustomerSetCustomerTable = (data) => {
+    $('#customer_Table').empty(); // Customer Table Clean
 
+    data.forEach(CustomerModel =>{
+
+        var newRow =  "<tr><th scope='row'>" + CustomerModel.cust_Id + "</th><td>" + CustomerModel.cust_Name + "</td><td>" + CustomerModel.cust_Mail + "</td><td>" + CustomerModel.cust_Address + "</td></tr>";
+        $("#customer_Table").append(newRow);
+    });
+}
