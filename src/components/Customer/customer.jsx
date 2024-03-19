@@ -108,8 +108,8 @@ function Customer(){
 
                         <div className="col-12 col-xxl-8 col-xl-8 col-lg-7 col-md-5 col-sm-5 mt-sm-0 text-center">
                             <button type="button" className="btn btn-success fw-bold col-12" id="customerSaveBtn">Save</button>
-                            <button type="button" className="btn btn-warning fw-bold col-6 " id="customerUpdateBtn">Update</button>
-                            <button type="button" className="btn btn-danger fw-bold col-6" id="customerDeleteBtn">Delete</button>
+                            <button type="button" className="btn btn-warning fw-bold col-12 " id="customerUpdateBtn"  style={{ display: 'none' }}>Update</button>
+                            <button type="button" className="btn btn-danger fw-bold col-12" id="customerDeleteBtn"  style={{ display: 'none' }}>Delete</button>
                         </div>
 
 

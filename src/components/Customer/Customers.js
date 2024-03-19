@@ -75,3 +75,24 @@ $(document).on("click", "#customer_Table tr", function () {
     $("#customerMailTxt").val(data.eq(1).text());
     $("#customerAddressTxt").val(data.eq(2).text());
 });
+
+
+//////////////////////////////////////////////////// Button Css ////////////////////////////////////////////
+
+$(document).on("click", "#customer_Table tr", function () {
+    $('#customerSaveBtn').css('display', 'none');
+    $('#customerUpdateBtn').css('display', 'block');
+    $('#customerDeleteBtn').css('display', 'block');
+});
+
+$(document).on("click", "#customerUpdateBtn", function () {
+    $('#customerSaveBtn').css('display', 'block');
+    $('#customerUpdateBtn').css('display', 'none');
+    $('#customerDeleteBtn').css('display', 'none');
+});
+
+$(document).on("click", "#customerDeleteBtn", function () {
+    $('#customerSaveBtn').css('display', 'block');
+    $('#customerUpdateBtn').css('display', 'none');
+    $('#customerDeleteBtn').css('display', 'none');
+});
