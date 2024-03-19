@@ -71,6 +71,35 @@ $(document).ready(function (){
     });
 });
 
+// Delete Customer
+$(document).ready(function() {
+    $("#customerDeleteBtn").on('click', function() {
+
+        var deleteCustomerId = $("#customerIdTxt").val();
+
+        const sendAJAX = () => {
+            const http = new XMLHttpRequest();
+            http.onreadystatechange = () =>{
+                //Validation
+                if (http.readyState === 4 && http.status === 200) {
+                    alert("Success")
+                }else{
+                    alert("Failed")
+                }
+            }
+
+            // Append the customer ID to the URL  ( Id Sent PathVarible)
+            var url = "http://localhost:8080/D_Zone_BackEnd_war_exploded/customer/" + deleteCustomerId;
+
+            http.open("DELETE",url,true);
+            http.setRequestHeader("Content-Type","application/json");
+            http.send()
+        }
+
+        sendAJAX()
+    });
+});
+
 
 // Get All Customer
 function getAllCustomers(){
