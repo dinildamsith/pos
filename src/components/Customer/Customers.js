@@ -37,7 +37,7 @@ $(document).ready(function() {
 });
 
 // Update Customer
-$(document).ready(function (){
+$(document).ready(function() {
     $("#customerUpdateBtn").on('click', function() {
 
         var cust_Id = $("#customerIdTxt").val();
