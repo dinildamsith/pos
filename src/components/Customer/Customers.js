@@ -63,3 +63,15 @@ const getAllCustomerSetCustomerTable = (data) => {
 
     });
 }
+
+
+// Ensure the event handler is bound even after content changes
+$(document).on("click", "#customer_Table tr", function () {
+    let id = $(this).find("th").text(); // table header
+    let data = $(this).find("td"); // table Data
+
+    $("#customerIdTxt").val(id);
+    $("#customerNameTxt").val(data.eq(0).text());
+    $("#customerMailTxt").val(data.eq(1).text());
+    $("#customerAddressTxt").val(data.eq(2).text());
+});
