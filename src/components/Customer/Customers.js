@@ -36,6 +36,41 @@ $(document).ready(function() {
     });
 });
 
+// Update Customer
+$(document).ready(function (){
+    $("#customerUpdateBtn").on('click', function() {
+
+        var cust_Id = $("#customerIdTxt").val();
+        var cust_Name = $("#customerNameTxt").val();
+        var cust_Mail = $("#customerMailTxt").val();
+        var cust_Address = $("#customerAddressTxt").val();
+
+        var customerUpdateDetailsObje = new CustomerModel(cust_Id,cust_Name,cust_Mail,cust_Address)
+        var customerUpdateDetailsObjeJson = JSON.stringify(customerUpdateDetailsObje);
+
+        const sendAJAX = (customerUpdateObj) => {
+            const http = new XMLHttpRequest();
+            http.onreadystatechange = () =>{
+                //Validation
+                if (http.readyState === 4 && http.status === 200) {
+                    alert("Success")
+                }else{
+                    alert("Failed")
+                }
+            }
+
+            // Append the customer ID to the URL  ( Id Sent PathVarible)
+            var url = "http://localhost:8080/D_Zone_BackEnd_war_exploded/customer/" + cust_Id;
+
+            http.open("PUT",url,true);
+            http.setRequestHeader("Content-Type","application/json");
+            http.send(customerUpdateObj)
+        }
+
+        sendAJAX(customerUpdateDetailsObjeJson)
+    });
+});
+
 
 // Get All Customer
 function getAllCustomers(){
