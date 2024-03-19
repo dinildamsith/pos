@@ -42,6 +42,7 @@ function getAllCustomers(){
     fetch("http://localhost:8080/D_Zone_BackEnd_war_exploded/customer")
         .then(response => response.json())
         .then(data => {
+            console.log(data)
             // Call the function to load customer data into the table
            getAllCustomerSetCustomerTable(data)
 
@@ -50,12 +51,15 @@ function getAllCustomers(){
         .catch(error => console.error('Error fetching data:', error));
 }
 
+// Get All Data Set Table
 const getAllCustomerSetCustomerTable = (data) => {
+
     $('#customer_Table').empty(); // Customer Table Clean
 
     data.forEach(CustomerModel =>{
 
         var newRow =  "<tr><th scope='row'>" + CustomerModel.cust_Id + "</th><td>" + CustomerModel.cust_Name + "</td><td>" + CustomerModel.cust_Mail + "</td><td>" + CustomerModel.cust_Address + "</td></tr>";
         $("#customer_Table").append(newRow);
+
     });
 }

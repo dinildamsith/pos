@@ -125,7 +125,7 @@ function Customer(){
                                 <tr>
                                     <th scope="col">Id</th>
                                     <th scope="col">Name</th>
-                                    <th scope="col">Contact</th>
+                                    <th scope="col">Mail</th>
                                     <th scope="col">Address</th>
                                 </tr>
                                 </thead>
