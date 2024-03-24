@@ -2,12 +2,7 @@ import {CustomerModel} from '../../Model/CustomerModel'
 import $ from 'jquery';
 import 'jquery'
 
-// $(document).ready(function() {
-//     $("#sideBarCustomerButton").on('click', function () {
-//         console.log("ssss")
-//         getAllCustomers();
-//     });
-// });
+
 getAllCustomers();
 
 
@@ -77,7 +72,7 @@ $(document).ready(function() {
     });
 });
 
-// Search Customer
+// Search Customer (Enter Button press after Search)
 $(document).ready(function() {
     $(document).on('keypress', function(event) {
         // Check if the pressed key is Enter (key code 13)
@@ -173,6 +168,7 @@ $(document).ready(function() {
     });
 });
 
+// Search Button Click After Customer Search
 $(document).ready(function() {
     $("#searchBtn").on('click', function (event) {
         var searchCustomerId = $("#customerIdTxt").val();
