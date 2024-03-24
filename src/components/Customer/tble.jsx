@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 
-function TablePage() {
+function CustomerTablePage() {
     useEffect(() => {
         getAllCustomers();
     }, []); // Empty dependency array to ensure it runs only once when component mounts
@@ -43,4 +43,4 @@ function TablePage() {
     );
 }
 
-export default TablePage;
+export default CustomerTablePage;

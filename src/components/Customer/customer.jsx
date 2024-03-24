@@ -7,7 +7,8 @@ import '../Item/Item.css'
 import './Customers'
 import '@fortawesome/fontawesome-free/css/all.css';
 import './customer.css'
-import TablePage from "./tble";
+import CustomerTablePage from "./tble";
+
 
 
 
@@ -126,7 +127,7 @@ function Customer(){
                                 <h1 className="text-center fw-bold mt-3 text-white">Save Customers</h1>
                             </div>
 
-                            <TablePage/>
+                            <CustomerTablePage/>
                             {/* <table className="table mt-3 mt-xxl-4">
                                 <thead>
                                 <tr>
