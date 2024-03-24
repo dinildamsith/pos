@@ -71,6 +71,59 @@ $(document).ready(function() {
     });
 });
 
+// Search Customer
+$(document).ready(function() {
+    $(document).on('keypress', function(event) {
+        // Check if the pressed key is Enter (key code 13)
+        if (event.which === 13 || event.keyCode === 13) {
+
+            var searchCustomerId = $("#customerIdTxt").val();
+
+            const sendAJAX = () => {
+                const http = new XMLHttpRequest();
+                http.onreadystatechange = () => {
+                    // Validation
+                    if (http.readyState === 4) {
+                        if (http.status === 200) {
+                            alert("Success");
+                            // Process the response here if needed
+                        } else {
+                            alert("Failed");
+                        }
+                    }
+                };
+
+                http.open("GET", "http://localhost:8080/D_Zone_BackEnd_war_exploded/customer", true);
+                http.setRequestHeader("Content-Type", "application/json");
+                http.send();
+
+                // Append the SearchCustomer ID to the URL
+                var urlWithPathVariableId = "http://localhost:8080/D_Zone_BackEnd_war_exploded/customer/" + searchCustomerId;
+
+                fetch(urlWithPathVariableId)
+                    .then(response => response.json())
+                    .then(data => {
+
+                        // Set the value of the text field with ID "customerIdTxt"
+                        $("#customerIdTxt").val(data.cust_Id);
+                        $("#customerNameTxt").val(data.cust_Name);
+                        $("#customerMailTxt").val(data.cust_Mail);
+                        $("#customerAddressTxt").val(data.cust_Address);
+
+
+                    })
+                    .catch(error => console.error('Error fetching data:', error));
+
+            };
+
+            sendAJAX();
+        }
+
+
+
+    });
+});
+
 // Delete Customer
 $(document).ready(function() {
     $("#customerDeleteBtn").on('click', function() {
