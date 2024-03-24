@@ -59,7 +59,7 @@ $(document).ready(function() {
                 }
             }
 
-            // Append the customer ID to the URL  ( Id Sent PathVarible)
+
             var url = "http://localhost:8080/D_Zone_BackEnd_war_exploded/customer/" + cust_Id;
 
             http.open("PUT",url,true);
@@ -150,6 +150,65 @@ $(document).ready(function() {
         }
 
         sendAJAX()
+    });
+});
+
+// Text Field Clear
+$(document).ready(function() {
+    $("#customerIdTxt").on('keydown', function(event) {
+        // Check if the pressed key is Backspace (key code 8) or Delete (key code 46)
+        if (event.which === 8 || event.which === 46) {
+            // Set the value of the text field to an empty string
+            $("#customerIdTxt").val("");
+            $("#customerNameTxt").val("");
+            $("#customerMailTxt").val("");
+            $("#customerAddressTxt").val("");
+        }
+    });
+});
+
+$(document).ready(function() {
+    $("#searchBtn").on('click', function (event) {
+        var searchCustomerId = $("#customerIdTxt").val();
+
+        const sendAJAX = () => {
+            const http = new XMLHttpRequest();
+            http.onreadystatechange = () => {
+                // Validation
+                if (http.readyState === 4) {
+                    if (http.status === 200) {
+                        alert("Success");
+                        // Process the response here if needed
+                    } else {
+                        alert("Failed");
+                    }
+                }
+            };
+
+            http.open("GET", "http://localhost:8080/D_Zone_BackEnd_war_exploded/customer", true);
+            http.setRequestHeader("Content-Type", "application/json");
+            http.send();
+
+            // Append the SearchCustomer ID to the URL
+            var urlWithPathVariableId = "http://localhost:8080/D_Zone_BackEnd_war_exploded/customer/" + searchCustomerId;
+
+            fetch(urlWithPathVariableId)
+                .then(response => response.json())
+                .then(data => {
+
+                    // Set the value of the text field with ID "customerIdTxt"
+                    $("#customerIdTxt").val(data.cust_Id);
+                    $("#customerNameTxt").val(data.cust_Name);
+                    $("#customerMailTxt").val(data.cust_Mail);
+                    $("#customerAddressTxt").val(data.cust_Address);
+
+
+                })
+                .catch(error => console.error('Error fetching data:', error));
+
+        };
+
+        sendAJAX();
     });
 });
 
