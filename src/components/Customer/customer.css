@@ -1,0 +1,14 @@
+.search-container {
+    position: relative;
+}
+
+.search-icon {
+    position: absolute;
+    right: 10px; /* Adjust as needed */
+    top: 50%;
+    transform: translateY(-50%);
+    color: #aaa; /* Adjust as needed */
+}
+.search-icon {
+    cursor: pointer; /* Set the cursor to pointer on hover */
+}

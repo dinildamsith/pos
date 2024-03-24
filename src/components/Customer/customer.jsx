@@ -126,7 +126,8 @@ function Customer(){
                                 <h1 className="text-center fw-bold mt-3 text-white">Save Customers</h1>
                             </div>
 
-                            <table className="table mt-3 mt-xxl-4">
+                            <TablePage/>
+                            {/* <table className="table mt-3 mt-xxl-4">
                                 <thead>
                                 <tr>
                                     <th scope="col">Id</th>
@@ -136,7 +137,7 @@ function Customer(){
                                 </tr>
                                 </thead>
                                 <tbody id="customer_Table"></tbody>
-                            </table>
+                            </table> */}
                         </div>
 
 
