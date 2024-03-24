@@ -5,7 +5,9 @@ import SideBar from "../SideBar/SideBar";
 import MobileSideBar from "../SideBar/mobileSideBar";
 import '../Item/Item.css'
 import './Customers'
-
+import '@fortawesome/fontawesome-free/css/all.css';
+import './customer.css'
+import TablePage from "./tble";
 
 
 
@@ -86,19 +88,23 @@ function Customer(){
                             <form>
                                 <div className="form-group">
                                     <label htmlFor="customerIdTxt" className="text-black fw-bold">Customer Id</label>
-                                    <input type="text" className="form-control fw-bold" id="customerIdTxt" placeholder="C001"/>
+                                    <div className="search-container">
+                                        <input type="text" className="form-control fw-bold" id="customerIdTxt" placeholder=""/>
+                                        <i className="fas fa-search search-icon" id="searchBtn"></i>
+                                    </div>
                                 </div>
+
                                 <div className="form-group">
                                     <label htmlFor="customerNameTxt" className="text-black fw-bold">Customer Name</label>
-                                    <input type="text" className="form-control fw-bold" id="customerNameTxt" placeholder="Dinil Damsith"/>
+                                    <input type="text" className="form-control fw-bold" id="customerNameTxt" placeholder=""/>
                                 </div>
                                 <div className="form-group">
                                     <label htmlFor="customerMailTxt" className="text-black fw-bold">Mail</label>
-                                    <input type="text" className="form-control fw-bold" id="customerMailTxt" placeholder="dinil@gmail.com"/>
+                                    <input type="text" className="form-control fw-bold" id="customerMailTxt" placeholder=""/>
                                 </div>
                                 <div className="form-group">
                                     <label htmlFor="customerAddresTxt" className="text-black fw-bold">Address</label>
-                                    <input type="text" className="form-control fw-bold" id="customerAddressTxt" placeholder="Avissawella"/>
+                                    <input type="text" className="form-control fw-bold" id="customerAddressTxt" placeholder=""/>
                                 </div>
                             </form>
                         </div>
