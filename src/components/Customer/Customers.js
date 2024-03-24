@@ -2,8 +2,14 @@ import {CustomerModel} from '../../Model/CustomerModel'
 import $ from 'jquery';
 import 'jquery'
 
-
+// $(document).ready(function() {
+//     $("#sideBarCustomerButton").on('click', function () {
+//         console.log("ssss")
+//         getAllCustomers();
+//     });
+// });
 getAllCustomers();
+
 
 // Save Customer
 $(document).ready(function() {
@@ -272,3 +278,10 @@ $(document).on("click", "#customerDeleteBtn", function () {
     $('#customerUpdateBtn').css('display', 'none');
     $('#customerDeleteBtn').css('display', 'none');
 });
+
+
+
+
+
+
+
